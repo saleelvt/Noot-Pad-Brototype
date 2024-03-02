@@ -1,0 +1,26 @@
+Express
+-------
+=> stutus code { its a method to find code request cheyth  statut success or fail or server time out fail like that\
+=> costum middle ware {nammal undakunnath }
+=> body parser and express.json {same purpose but express.json suprate module edukkanda  }
+=> express.json(),urlencoded()
+   -> its a middle ware function 
+   -> used to handle HTTP requests 
+   -> but ith 2 um made for handle diffrent types of data format
+   -> url html form  data ye parse cheyyan 
+   -> express.json pars data to json formate
+=> app.set /use 
+   -> set -> {view engine and port }
+   -> use -> {middle ware set cheyyan } 
+=> bycrypt {its a popular library hashing the password node.js application security strong  }
+=> connect-flash library{its use to store and retrieve flash message its typically used to display message after a specific action has been completed }
+=> preflight {its is a http special request  {oru yethardha request ayakkunnathinte munne athinte server ayach athin access undo enn chekk cheyyunm }
+   its associaterd with Cors }
+> morgan {its a therd party middle ware,its used to log http request details= ,such as the request methods ,url,responsestatus and other information about requests , }
+=> deepcopy and shallow copy {shallow copy return a duplicate of that function }
+=> deepcopy return completely separate same code you can define a new function /it use the bind() dp=og.bind()
+=> copying function with arguments prossible
+ => app.use(morgan('combined'));
+=> axios libraries  {its work with make requeast very easyly in express}
+
+

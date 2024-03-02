@@ -1,0 +1,47 @@
+Virsion Controlers {git /mercurial/svn}
+--------------------------------------- 
+
+Git Hub
+-------
+
+git used in open sorce projects 
+git is a system tool basicaly
+git hub is a server
+git not depent on a specific language
+cheyyunna ella karyangalum vertual aayi nireekshikum
+oru file git set cheyth koduthal pille athil varunna ella sanamgalum git analyse cheyth konde irikkum
+
+usage of git
+-------------
+=> Tracking History{pazhayathil nammak changes varutham }
+=> Collabration {multilple codes mixed}
+=> Back up       {sorce code eppo veneelum kittum 'git gub push {this camant codes push to server}'}
+=> Multiple feachers {oree samayam namakk koree karyangal cheyyam} 
+=> Tracking status {evide nirthi{git status} {"git stash" ->aage splash aayal }}
+
+
+1. **Repository (Repo)**:
+   - A Git repository is a folder or directory where your project's version history and files are stored. It can be a local
+     repository on your computer or a remote repository hosted on a platform like GitHub or GitLab.
+
+2. **Add**:
+   - The `git add` command is used to stage changes in your working directory for the next commit.
+     This means you are telling Git which files or changes you want to include in the next commit. You can use `git add <file>` 
+     to stage a specific file or `    git add .` to stage all changes.
+
+3. **Commit**:
+   - The `git commit` command is used to save the staged changes in your local repository. It creates a snapshot
+      of the changes along with a commit message     that describes what was done. Commits are the building blocks of your project's history.
+
+4. **Pull**:
+   - `git pull` is used to update your local repository with changes from a remote repository. It fetches changes
+     from the remote repository and then merges them into your current branch. This is often used to keep your local copy up to 
+     date with the latest changes  from a collaborative project.
+
+5. **Push**:
+   - `git push` is used to send your local commits to a remote repository. This is how you share your changes with others or update a remote repository with your latest work.
+
+6. **Stash**:
+   - The `git stash` command is used to temporarily save changes that you don't want to commit yet. It's useful when you need to switch branches or deal with a critical bug on another branch without committing your work in progress. You can later apply or pop the changes from the stash.
+
+These are some of the fundamental Git concepts, and there are many more advanced features and commands available for managing version control in your projects. Git is a powerful tool for collaboration, version management, and tracking the history of your code.

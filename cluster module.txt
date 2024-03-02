@@ -1,0 +1,26 @@
+cluster module
+trim functuion 
+params{namukk venda resorse access ulla thileek matram vilikkunnathaan }
+query{its a key value paiers its use fillter cheyth aavashyamullath matram tahrum }
+uri     {url pole identifiy cheyyan numberokke }
+meta data {dependeitisn }
+weak map {collectuion of a key value peirse /key must be object   }
+map (eny data types  )
+event emiter=> {costom event vilikkan patum /emitt on and asyncronous thask and input out put oparator }
+event Emitter {enthengilum oru event pass cheyyanum and ath thirige vilikkanum ubayoogikkunu}
+express.json   {middle ware used to request body yile json data parse cheyyan used in   clients send data in JSON format, 
+such as in API requests. }
+> morgan {its a therd party middle ware,its used to log http request details  { app.use(morgan('combined'));}
+=> express.json(),urlencoded()
+   -> its a middle ware function 
+   -> used to handle HTTP requests 
+   -> but ith 2 um made for handle diffrent types of data format
+   -> url html form  data ye parse cheyyan 
+   -> express.json  bodyile json data parse cheyyan
+
+=> web Api { its a set of API provivided by web browsers that enable web applications to interact with browser
+ enbironment and the internet 
+   -> oree samayam kore karyangal cheyyunna aale 
+=> libuv  {it is the library and cross platform asyncrounous I/O library   used by node js  event loop and 
+provide non-blocking i/o operations
+         -> libuv create cross flateforms 

@@ -1,0 +1,69 @@
+Study Metirials ds-2
+--------------------
+
+QUEUE
+-----
+
+=>purpos of front and rear pointers
+  -> we whant to ensure the 2 pointer for checking end node and first node 
+=> priority of queue
+   {the most priority in  a queue thats the first node in the queue it dosenot thats is not considering strict fifo }
+=> how to handle overflow & underflow 
+   * the under flow is we are poping items from  stack when tha is empty  
+   * the over flow is we are puting items to stack  than it can hold 
+{  we can check is element have or not and we can check size have or not}
+=> circular queue {the circular queue is a extented vertion of a simple queue where the front and rear pointers are connected in a circular manner
+                   it can removed the wast space of simple queue one element enqued that time one element will be dequeued }
+=> feal world senario 
+=> queue applecations 
+* document printer and call stack js
+=> types of queue {simple queue ,circular queue and priority queue }
+=> enqueue
+=> dequeue
+=> peek ,size,print,contains
+=> delete specific & delete mid
+=> reverce inserts.insert mid
+=> circular queue  *{circular queue application is=> clock and streaming dta and traffic lights its very efficiant }
+=> queue using stack 
+=> what is queue 
+=> diffrents b/w stack and queue
+=> using array and linked list 
+
+HASH TABLE
+----------
+
+
+=> hash table and work and what requirement for good hash table 
+   * hash table one of the most importent data structure that abstracte data type 
+=> collishion and how to handle it {chaining & open addresing  }
+=> coplexity of {insertion ,deletion ,search ,get{retrive} average case{O(1) and werst case{O(n)}}}
+=> why tred size hash table
+=> how to resize hash table 
+=> quadractic probing {quasdrectic probiing is the open addressing idea for resolving hash collition in hash table }
+=> linear problum 
+=> rehashing 
+=> dulbe hashing 
+=> load factor
+=> advantage and dis
+=> hash function 
+=> hash table application and its implementation 
+
+STACK
+-----
+=> what is it stack
+=> diffrents 
+=> ussing array and linked list 
+=> complexityes {insertion and deletion and search retrive  }
+=> stack to queue queue to stack 
+=> stack working 
+=> stack over flow & under flow
+=> check balanced paranthescs 
+=> applecation of stacks 
+=> push pop peek size prind contains 
+=> delete specific & delete middle 
+=> insert delete stack to queue 
+=> type of stack { register stack and the memory stack.}
+=> tail wint is good choise for css fram work 
+=> the react actually not a frame work but that is a good library  {reacty make a good confertable components user friendly and its will make very easily}
+=> next js is a fram work of react thats making extra work like server side rendering 
+
