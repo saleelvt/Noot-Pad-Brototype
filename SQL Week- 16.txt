@@ -1,0 +1,66 @@
+SQL Week- 16
+------------
+
+=> Learn SQL database and complete basics of database operation use terminal 
+=> {
+
+
+
+Day 1 - 5/3/2024
+----------------
+* INSERT
+* UPDATE
+* DELETE
+* ALTER
+* TRANCATE
+* DROP
+
+Day 2 - 6/3/2024
+----------------
+* ACID Properties 
+* Normalization 
+* Constrains
+* Relationshis
+
+
+Day 3 - 7/3/2024
+----------------
+* Joins
+* 3-Schema Architecture 
+* Indexing 
+* Aggregate Functions
+
+Day 4 - 8/3/2024
+----------------
+* Scalar Functions 
+* SQL Queries 
+* Foreign Key Primary Key 
+* Closure 
+
+
+Day 5 - 10/3/2024
+----------------
+* Groupby
+* Having 
+* Transactions 
+* DML , DDL , DCL 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
