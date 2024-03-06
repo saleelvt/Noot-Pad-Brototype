@@ -32,10 +32,39 @@ job title manager enn ullayidath matram salary matum : {  UPDATE employees  SET 
 => to print ascenting order                          :{ select * from class order by {your column } }
 => if you want descenting order                      :{select * from class order by {your column } desc;} 
 => if you want limit rows from your table            :{select * from class limit 2;}
-=> if you want you skip the rows                     :{ select * from class offset 2;}
+=> if you want you skip the rows                     :{ select * from class offset 2;}r
 => student=# select * from class where name ='Saleel' or address='valapuram';
 => student=# select * from class where name ='Saleel' and address='variyahodi';
-=> 
+=> \c table change cheyyan and use:[name of the table }
+=> if you want add a new column :>   alter table add column :{name of the column and data type }
+=> if you want remove only the values from table ;{ truncate table/or truncate only :{name of the table } }
+=> if you want to remove the table :{ drop table friends}
+=> if you want to remove the data base same thing ;{drop database :{name }}
+
+Alter programs
+--------------
+Alter table key used for modify our existing table like colums add edit and drop columns data  such as :
+{
+
+* Adding a new column :{ alter table {name of table  } add column {name and data type } }
+* drop a column       :{alter table {name of the table} drop column {name of you want given }}
+* rename a column     :{alter table {name of the table } rename column {old name } TO {new name }}
+* change the datatype :{ alter table {name of the table } alter column {existing column name } type {new data type }
+}
+Delete
+------
+
+* delete row :{ delete from {table name } where {some condition }}
+* delete all rows ;{ delete from :{table name } } , we can use it the method of :{ truncate table {name of table } }
+* delete column :{atler table [name of table ] drop column [name of column ]
+* delete a specific value from column :{ update class set [which you what to null ] where name ='saleel'
+
+
+
+
+
+
+
 
                                                           
                                                            

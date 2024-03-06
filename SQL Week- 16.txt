@@ -15,10 +15,40 @@ Day 1 - 5/3/2024
 * TRANCATE
 * DROP
 
+
+
 Day 2 - 6/3/2024
 ----------------
 * ACID Properties 
+
+ Transations
+-------------   
+-> the transation is a set of logical operations and set of rules programs for accessing with content of the database 
+ like {google pay transation and atm transation }
+
+4 properties of transations
+---------------------------
+-> Atomicity  :{ The atomicity is the all operation of the transaction want to run at least onece time else it will be aborted 
+                 -> eg : google pay transation   }
+-> consistency:{during the occuring the transations the data base should  to be consistent data base because we are eventing a transation one consistent     
+                data base to another data base } 
+-> isolation  : {during the transation the datas will have to be use for transation so at a time cannot able to allow for eny another transation   }
+-> durablity  : { the durablity is inticate the performence of the data base consistent state , the transation made the permenent changes  so the consistent 
+               state cannot failur even in the event system failure . } 
+
+
+
 * Normalization 
+---------------
+
+-> normalization is the process for reduce the redunducy data from our data base with it make more flexible and consist and more efficiantly working with data base so the normalaization process will be more protuctive our data base 
+-> 3 type or somethings 
+  delete alomalais {delete cheyyumbo aavaathe irika when oroodthnn poyi matoodth undavum tc }
+  insert alomalais insert avaateh irikka 
+  update alomalais  diffrent table connection illathathoonde access kitateh irika 
+
+
+
 * Constrains
 * Relationshis
 
@@ -43,7 +73,8 @@ Day 5 - 10/3/2024
 * Groupby
 * Having 
 * Transactions 
-* DML , DDL , DCL 
+* DML , DDL , DCL  :{Data manipulating language and data }
+
 
 
 
