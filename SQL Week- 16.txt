@@ -42,6 +42,8 @@ Day 2 - 6/3/2024
 ---------------
 
 -> normalization is the process for reduce the redunducy data from our data base with it make more flexible and consist and more efficiantly working with data base so the normalaization process will be more protuctive our data base 
+=> base case oru transaction athumaayi islated aayirikum 
+
 -> 3 type or somethings 
   delete alomalais {delete cheyyumbo aavaathe irika when oroodthnn poyi matoodth undavum tc }
   insert alomalais insert avaateh irikka 
@@ -50,13 +52,42 @@ Day 2 - 6/3/2024
 
 
 * Constrains
-* Relationshis
+------------
+=> it used to specify roles in data base 
+=> the constraints are the set of rules of for increasing our data base reliability ensur the data base accuracy and 
+   if occure the violation in between data rule and action that will be aborted 
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+ 
+* Relationships
+---------------
+=> relationships is the table data access with foriegn key in any table 
+-> one to one and one to many and many to many 
+
+
+3 Schema Architucture 
+--------------------
+the 3 schema architucture ===levels of abstraction 
+-> db
+-> internal Schema    :{the data base structure and desiegn will be creating all so known as physical level  }
+-> conseptional level :{the logical level the next higher level we want to set the what type data and what is the relations between }
+-> external level     :{purath kk kaanunnath view level}
+=> Data indipented {oru preverthi mattonnine badhikkan padilla scema matumbhol  }
+
+
+
 
 
 Day 3 - 7/3/2024
 ----------------
 * Joins
-* 3-Schema Architecture 
 * Indexing 
 * Aggregate Functions
 
@@ -65,6 +96,10 @@ Day 4 - 8/3/2024
 * Scalar Functions 
 * SQL Queries 
 * Foreign Key Primary Key 
+------------------------
+=> the foreign key is used to in a relational dbms to join between two tables 
+
+
 * Closure 
 
 

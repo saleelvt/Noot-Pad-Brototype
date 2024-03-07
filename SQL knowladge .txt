@@ -59,9 +59,35 @@ Delete
 * delete column :{atler table [name of table ] drop column [name of column ]
 * delete a specific value from column :{ update class set [which you what to null ] where name ='saleel'
 
+=> select uniq value => { select distinct {your column name } from {your table name } }
+=> select speciphic condition :{we can use the where statement }
+=> we can sort the columns like :{select * from class order by {first column ,second column }}
+=> not :{select * from class where not city='valanchry '}
+=> to find a smallest value from a column :{select MIN(argument) from table-name}
+=> we can print the given column :{ select {give name of you what the column } from {table name } whre {speciphic condition }};
+=> you want now count of any thigs:{select count(*) from class where name ='saleel'}
+=> you want now the avarage of any thigs :{select avg(thigs to fing )  from nameoftable }
+=> you want now the sum of any thigs :{select sum(thigs to fing )  from nameoftable }
 
 
 
+
+SQL Like
+---------
+=> rejex checking like  you want now name start from a :{ select * from class where name like 'a%' }
+=> rejex checking like  you want now name end from a :{ select * from class where name like '%a' }
+=> rejex checking like  you want now checke specific letter contain or not :{ select * from class where name like '%a%' }
+=> rejex checking like  you want now checke specific letters start value and end value :{ select * from class where name like 'a%b' }
+
+* we can apply these oposite mthod with:{select * from class where name not like 'a%'}  = imp 
+-> this like we can check the second letter and more whant '_' : select * from class where name like '_a%'
+-> and start with where city like '[a,c,s]%'
+
+=> sql in operation
+-------------------
+=> check 2 condietion in a row :{ select * from customers where country in ('france','norway')}
+
+=> sql alias =>   oru column vlaue print cheyyumbol nammukk only column name matram mati print aaka :{ select name as place as from class }
 
 
 
