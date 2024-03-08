@@ -88,6 +88,33 @@ the 3 schema architucture ===levels of abstraction
 Day 3 - 7/3/2024
 ----------------
 * Joins
+-------
+
+=> the joins functions are the importent method in sql we can return the table with combain one ore more tables  with jointed 
+
+
+Foreign Key 
+-----------
+
+=> you want now a table with relation so first create a foreign key {
+-> check refered table superate a id created or not : else create 
+and 
+-> alter table name of table you want create foreign key  
+-> add constraint {any name for give }
+-> foreign key (id or name from this table given  )
+-> references workers(id);
+}
+
+Inner join 
+---------
+
+= the inner join is the one of the best query for finding the values for matching with bouth tables 
+
+=> select * from nookeenda table 
+ and : inner join {refer cheyyeenda table } on {nookeenda id }={innahtil ninn nokunna id };
+=>  you can use the specific field as you wish like  : select salary ,place, name from thable name 
+ 
+
 * Indexing 
 * Aggregate Functions
 
