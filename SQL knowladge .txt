@@ -51,8 +51,8 @@ Alter table key used for modify our existing table like colums add edit and drop
 * rename a column     :{alter table {name of the table } rename column {old name } TO {new name }}
 * change the datatype :{ alter table {name of the table } alter column {existing column name } type {new data type }
 }
-Delete
-------
+Delete------
+
 
 * delete row :{ delete from {table name } where {some condition }}
 * delete all rows ;{ delete from :{table name } } , we can use it the method of :{ truncate table {name of table } }

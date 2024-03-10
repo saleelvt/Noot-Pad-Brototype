@@ -113,10 +113,21 @@ Inner join
 => select * from nookeenda table 
  and : inner join {refer cheyyeenda table } on {nookeenda id }={innahtil ninn nokunna id };
 =>  you can use the specific field as you wish like  : select salary ,place, name from thable name 
- 
 
+=> the diffrents bitween the inner join and full join or outer join the inner join return only mached rows but that will return teh full table 
+ 
+=> full outer join : {left table and right table full datas kittum }
 * Indexing 
+----------
+
+=> indexing is used to give indexes to table  in sql for queckliy access and retrive  otherwise users cannot see the index
+
+* you want now the create index: create index {name of index} on {name of table name } (name ,address)
+Note -> if you want uniq index you can add the : create unique index 
+
+
 * Aggregate Functions
+
 
 Day 4 - 8/3/2024
 ----------------
@@ -133,6 +144,13 @@ Day 4 - 8/3/2024
 Day 5 - 10/3/2024
 ----------------
 * Groupby
+-> the group by statement groups rows that have a sphecific coundition 
+  we can use the :{sum() ,avg(),count() ,max(),min()} functions 
+-> 
+
+
+
+
 * Having 
 * Transactions 
 * DML , DDL , DCL  :{Data manipulating language and data }
