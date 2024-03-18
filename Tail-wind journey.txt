@@ -4,6 +4,7 @@ Tail-wind journey
 -> level of costum cheyyan sceana 
 -> options valare kuravaan 
 
+
 tailwind
 -------
 -> hiehgly costum based aanu
@@ -15,3 +16,5 @@ Basics tail wind
 -> css il 16 px ennath tail windil kaanunnath 4 enna vlaue aan
 -> we cut the width  like =: 1/2,1/4
 -> full edukkan : w-screen ellam varum and ,: h-full ittal heigt full edukkum 
+-> we can select the px and py :{px=padding left and right py = padding top and bottum }
+-> same as the mx my = margin case 

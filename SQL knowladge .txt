@@ -3,10 +3,15 @@ SQL knowladge
 
 => SQL VS POSTGRESQL
 --------------------
+=> sql structured query language 
+-> sql can access and manipulating database 
 
  popular      * aduvanced featurs 
  performence  * open sorce 
  easy to use  * scalablity 
+=> sql non sql 
+--------------
+-> vertical ,predifined Scheama ,relational data base
 
 
 
@@ -22,6 +27,8 @@ PostgreSQL supports various numeric data types including => smallint, integer, b
 =>  if you want to switch to any database {\c and name }
 => create table :{ create table {name }} and we want to set the coloums name with a data type and sql cotain so many types of data types 
 => create a table and colums  {create table {name of the table } and rows (id we want a put a data type  and primary key ,name {that data type like {varchar(50)}} )}
+
+
 
 => how to enter a data =: insert into {your_table name} (name whatever exist like address) values ('saleel','variyathodi ');
 => to fint table =: \dt
@@ -50,16 +57,13 @@ Alter table key used for modify our existing table like colums add edit and drop
 * drop a column       :{alter table {name of the table} drop column {name of you want given }}
 * rename a column     :{alter table {name of the table } rename column {old name } TO {new name }}
 * change the datatype :{ alter table {name of the table } alter column {existing column name } type {new data type }
-}
-Delete------
-
-
 * delete row :{ delete from {table name } where {some condition }}
 * delete all rows ;{ delete from :{table name } } , we can use it the method of :{ truncate table {name of table } }
 * delete column :{atler table [name of table ] drop column [name of column ]
 * delete a specific value from column :{ update class set [which you what to null ] where name ='saleel'
-
 => select uniq value => { select distinct {your column name } from {your table name } }
+=> reaname data base : ALTER DATABASE oldeanne MODIFY NAME = Example=
+
 => select speciphic condition :{we can use the where statement }
 => we can sort the columns like :{select * from class order by {first column ,second column }}
 => not :{select * from class where not city='valanchry '}
@@ -86,7 +90,6 @@ SQL Like
 => sql in operation
 -------------------
 => check 2 condietion in a row :{ select * from customers where country in ('france','norway')}
-
 => sql alias =>   oru column vlaue print cheyyumbol nammukk only column name matram mati print aaka :{ select name as place as from class }
 
 
