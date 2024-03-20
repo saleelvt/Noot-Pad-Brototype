@@ -1,0 +1,67 @@
+SQL Advanced 
+------------
+
+=> count of people from each city 
+=> find out emplooyee with highest salary 
+
+
+
+
+* subquery 
+----------
+-> the subquery is the query within another sql query that will have embedded within the where clause
+-> we can use the subquery without  the where case 
+=> subquerys can be used with the select ,insert ,update ,delete and statements along with the operators like =<<,>, in ,between ,
+some condition must be follow 
+----------------------------
+-> subqueries must be enclosed within parentheses {paenthesesinte ullilayirikkanam vekkendath }
+-> a subqueries can have only one column in the select clause 
+-> An order by command cannot be used in a subquery 
+-> main query and subqury 
+-> first inner query aanu exicute cheyya 
+-> subquery () braisinte ullil parentheses nte ullil aavum undaava 
+-> order by commant cannot be work
+
+
+
+
+
+
+
+
+
+* case statement {how to give an increment of 10 k in salary }
+
+=> what is a domain :{domain is a valied value use in our table columns : nammal age declire cheyyunath> }
+-> primary key ,unique key ,foreign key 
+
+*  primary key :{
+-----------------
+-> primary key is a field in a table which uniquely identifie each row in a data base 
+-> they  have multiple keys but we want to set preiority key for retrive 
+* cnadidate key 
+---------------
+-> the remaining keys like adhar number or passport num ,  except for primary key are considered as a candidate key 
+-> we can set the candidate key as a set of keys 
+
+* super key 
+-----------
+-> super key is a super set of a candidate key 
+-> we can take the keys as a sets >
+
+
+}
+
+
+* composite key 
+* order of execution 
+* all join methods 
+* Candidate Key 
+* stored procedure  
+
+
+SQL quiz
+---------
+* With SQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+-> With SQL, how can you delete the records where the "FirstName" is "Peter" in the Persons Table?
+- >The NOT NULL constraint enforces a column to not accept NULL values.
