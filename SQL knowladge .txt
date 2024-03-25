@@ -78,9 +78,10 @@ Alter table key used for modify our existing table like colums add edit and drop
 
 SQL Like
 ---------
+=> first letter start with or  any letter ->condition '[asd]%'
 => rejex checking like  you want now name start from a :{ select * from class where name like 'a%' }
 => rejex checking like  you want now name end from a :{ select * from class where name like '%a' }
-=> rejex checking like  you want now checke specific letter contain or not :{ select * from class where name like '%a%' }
+=> rejex checking like  you want now checke specific pattern  contain or not :{ select * from class where name like '%a%' }
 => rejex checking like  you want now checke specific letters start value and end value :{ select * from class where name like 'a%b' }
 
 * we can apply these oposite mthod with:{select * from class where name not like 'a%'}  = imp 
@@ -96,6 +97,16 @@ SQL Like
 
 
 
+
+-- Retrieve column names from the "class" table
+SELECT column_name
+FROM information_schema.columns
+WHERE table_name = 'class';
+
+-- After verifying the correct column name, you can proceed with your SELECT statement
+-- For example, if "name_three" is not found, you can choose an existing column
+-- Let's say "name_one" exists, so you can select it like this:
+SELECT name_one FROM class;
 
 
                                                           

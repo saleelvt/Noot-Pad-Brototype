@@ -214,8 +214,6 @@ student=# select city ,salary from class group by city ,salary having (salary) <
 
 
 
-
-
 => alter table {name of table you want create foreign key}
 -> add constraint {any name for give }
 -> foreign key (id or name from this table given  )
@@ -246,6 +244,7 @@ inner join ->
 --------------
 -> view is a vertual table that we can create a speciphic acssepts 
 -> set-of rules and from table 
+
 advantages :{
 -> view allow to create diffrent security level  for a tables  
 -> we can see our data different ways 
@@ -284,6 +283,10 @@ WHERE condition;
 
 * Dead Lock
 * Clustered vs Non-Clustered Index
+ -> sort method and pycical oder and index key 
+ -> only one clustered index allowes / multiple roews 
+ -> faster than non clustered index 
+
 * UNION, MINUS, INTERSECT
 * Find the employees who have the second-highest salary in each department.
 * Group by
@@ -301,6 +304,7 @@ WHERE condition;
 -> 3 triggre calling when ,insert event ,delete event ,update event 
 ->  ithil thanne bfore event and after event unde 
 
+
 * Applications of Trigger
 -> enforces business roles 
 -> validate input data 
@@ -316,11 +320,17 @@ WHERE condition;
 -> uniqe index     : uniqe 
 -> full text index 
 
+
 * common table expression
+-------------------------
+CTE are a feature in sql that allows you to define temporary result   sets within a query ,and that are especially useful for making complex queries more 
+and maintanable 
+
+
 * Candidate Key
 * Unique key vs Primary Key
 * Transactions
-* composite key 
+* composite key :{ a composite key is can be defined as a combination of multiple columns  }
 * group by with having clause 
 * union 
 * alter-table adding constraints 
@@ -332,5 +342,36 @@ WHERE condition;
 => The EXISTS :  operator is used to test for the existence of any record in a subquery. 
 
 
+ALL JOINS 
+---------
+=> self join mehtod => SELECT e.employee_name AS employee, m.employee_name AS manager
+FROM employees e
+LEFT JOIN employees m ON e.manager_id = m.employee_id;
 
-}
+=> cross join :{select * from class cross join address }
+
+
+diffrent between primary key                                                                        and uniqe key 
+----------------------------                                                                        ------------                                     
+=> is a special type of unique key that uniquely indentifies each row |    => is unique key ensure values in a cloumn or groups of  columns 
+=> thre can only be one primary key in a table                        |    => can have multiple unique keys 
+=> the primary column not be null                                     |    => may be it will be null 
+=> 
+
+
+=> all and any and some
+-----------------------
+-> all ,any ,some can be use with where and having clause 
+=> student=# select * from class where salary > all (select unnest(array[1000,3,44,544,4322]));
+
+exists
+------
+=> The EXISTS :  operator is used to test for the existence of any record in a subquery. 
+=> student=# select address from class where exists (select address from address where address='manager');
+
+* backup database  syntax : BACKUP DATABASE {nameofdb} TO DISK = 'D:\backups\testDB.bak';
+
+
+
+
+
