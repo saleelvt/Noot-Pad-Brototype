@@ -1,0 +1,38 @@
+React Topics .1
+---------------
+
+=> DOM concepts in js 
+=> Diffrence btw actual dom and virtual dom 
+=> Diffrence btw single page and multi page application 
+=> CSR vs SSR 
+=> Concept fo reusability 
+=> es6 versions syntaxes 
+ 
+ * Arrow functions 
+ * Map
+ * Destructuring 
+ * Filter
+ * Reduce 
+ * Import / Export
+
+=> Diffrence btw JSX and HTML 
+=> Learn about components 
+ 
+ * Class (baisc)
+ * Functional 
+
+=> Dynamic rendering 
+=> Lifecycle mehtods 
+=> Learn the concept of hooks 
+
+ * use State 
+ * use Effect 
+ * use Ref
+ * use History vs use Navigate 
+
+=> Learn the concept fo event handlers 
+ 
+ * onClick 
+ * onChange 
+
+=> learn the concept of React router 

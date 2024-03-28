@@ -1,0 +1,12 @@
+JAVA SCRIPT ARRAY METHODS 
+------------------------
+
+* FILTER : const filtered item = arrayname.filter((it will take one argument )=> return condietion what you want  )
+-> filter return new array that contain the elements satisfy  that condition 
+
+* Map :  const filtered item = arrayname.Map((it will take one argument )=> return condietion what you want  )
+->  it will return the values like array and single argument and change our data to other values accordingly 
+
+* Find : const filtered item = arrayname.Find((it will take one argument )=> return condietion what you want   )
+-> return the single object from array and accourding the condition satisfy
+-> it will retrun the value as first finted 

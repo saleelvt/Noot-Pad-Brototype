@@ -1,0 +1,72 @@
+REACT 1 WEEK 
+------------
+=> REACT  actually a library not a fram work 
+-> react introduced by facebook 
+=> react have class component and functional component : {class component used from earlyear}
+-> function component aanu main  : 
+HOOKS 
+-----
+incuded in functional component 
+=> data pass cheyyunnath json format 
+=> rendering clint side aanu nadakkunnath 
+=> crome edukka 
+=> pw ,vs ,pllugins ,node npm 
+
+=> react suprate html page vechaanu cheyya 
+=> root.render 2 arguments : 1= which component and which html page that conected 
+ 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+ 1= which component , 2= which html page that conected
+);
+web pack : used to create module bunddler like babel {create app  vilikkumpol ellam koodi varum   }
+=> 1 how to set components and state : click cheyyumbol marunnath 
+-> routing /api web vilikkunnath 
+=> 2 working of the event 
+=> jsx :{javascript xml we can use the xtml and js at a same time }
+ javascript xml
+---------------
+-> bt tag you want close like this <br/>
+-> purath variable aaki ezhuthiyath   nammk vilikkanengil :{2 brase inte ullil idanam + variable name }
+=> oru component ezhuthumbool first letter capital ezhutha 
+=> ivide ninn oru dataye pass cheyyan like props :{properties }
+=> js onclike === jsx ; onClick
+
+
+REACT 
+-----
+=> React is a open source library for building user interfaces like used to front end development used with javaScript 
+=> react is component based architecture 
+-> not a framwork 
+-> focus on Ui {user inter faces }
+-> react introduced face book  and maintained 
+-> huge community 
+-> components can be use with any library like angular , vue : that indication reusable code of react 
+
+
+react is declarative 
+--------------------
+=> that indicating if you want a ui then tell react what you want and react and react dom library  will build the actual UI 
+=> react will handle efficiently updating and rendering of the components 
+=> dom updates  are handles gracefully in react 
+=> react is declarative : { developers can give the instraction to react shoul the ui like this } 
+-. dom updation 
+=> imparative paradigm  :{ say for creation }
+=> react native for build the mobail app   
+-> 16.5.2
+
+=> react function vilikkan 
+
+* rfce ,rcce 
+=> oru onclik function  {} object nte ullil enhtengilum kodukkumbol nammal orikkalum function vilikkaruth so that is the main thin 
+* oru onclik function vilikkanulla name matram annu kodukkendathe 
+
+
+
+
+
+
+
+
+
+
