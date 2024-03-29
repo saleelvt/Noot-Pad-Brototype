@@ -16,8 +16,17 @@ React Topics .1
  * Import / Export
 
 => Diffrence btw JSX and HTML 
+
 => Learn about components 
- 
+------------------------- 
+=> React is component based architecture ,componant can reusable and component contain another component nested inside 
+
+2 types of component 
+--------------------
+-> stateless funcional component :{is java script fuctional component that will take properties and return html ui like }
+-> stateful class component 
+
+
  * Class (baisc)
  * Functional 
 
@@ -36,3 +45,4 @@ React Topics .1
  * onChange 
 
 => learn the concept of React router 
+
