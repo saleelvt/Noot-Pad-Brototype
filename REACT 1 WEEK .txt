@@ -43,6 +43,7 @@ REACT
 -> react introduced face book  and maintained 
 -> huge community 
 -> components can be use with any library like angular , vue : that indication reusable code of react 
+-> react is single page application 
 
 
 
@@ -85,4 +86,28 @@ some case of life cycles method
 
 
 -> {import form react : useEfferct  } & creat function 
+
+-> react routing 
+----------------
+=> routing is the best way for avoid the rendering 
+-> we can simply change our pages without refresh actually the react work only one htlm page we just change the page components accordingly
+
+=> single page application and multiplage  
+
+=> dom objenct :{head body and div class h1 like this 
+diffing :{component compare cheythe maatunnu 
+-> vercual dom is react doing create a copy of actual do
+
+=> how to create a counter : create a variable and  a button for click and 
+
+  const {title,data}=props
+  return ( <h1>{title } {data}</h1>
+
+
+
+
+
+
+
+
 

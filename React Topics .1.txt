@@ -5,6 +5,18 @@ React Topics .1
 => Diffrence btw actual dom and virtual dom 
 => Diffrence btw single page and multi page application 
 => CSR vs SSR 
+--------------
+=> clint side rendering : {  when we are loading any page in react  the clint side rendering first a plan index will load after the datas like js things working  } 
+=> Server side rendering :{ load aavumbol first varuga what whant to user that will come from page and the js will load very fastly }
+* : next.js il some data will come when loading a page 
+advantages of next.js
+---------------------
+
+-> SEO :{search engine optemaisation } : the next js simplifies ssr with less complexity  and next js proied automatic routing and file based routing  ,api routing  
+-> SSG :{static site genaration }
+
+=>  ESLint :{ you can catch errors before they happen, making your code more reliable and easier to maintain}
+=> type Script :{ }
 => Concept fo reusability 
 => es6 versions syntaxes 
  
@@ -35,6 +47,13 @@ React Topics .1
 => Learn the concept of hooks 
 
  * use State 
+-------------
+-> useSate hook used to add state to functional components , it allows you to declare state variable and update 
+-> the useState call a initial state value as an argument it return and array with two elemetnt 
+
+
+
+
  * use Effect 
  * use Ref
  * use History vs use Navigate 

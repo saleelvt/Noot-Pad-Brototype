@@ -1,0 +1,6 @@
+Next.js journey
+---------------
+=> should learn react basics 
+
+SSR [Server Side Rendering] and SSG [Static Site Generation]
+Next.js has built-in support for server-side rendering, making it easy to create SSR-enabled React applications without the need for manual setup and configuration.
