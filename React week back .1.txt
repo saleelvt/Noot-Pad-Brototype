@@ -48,6 +48,31 @@ React week back .1
 => Render Props 
 => Context Api 
 => HTTP 
+=> importance of using key prop while mapping an array 
+=> state vs variable
+=> controlled vs uncontrolled elements 
+=> axios
+---------
+rest endpoints
+api 
+ :{axios is a powerfull library used for send asynchronous  http rquest to rest endpoints , this library very useful to perform }
+
+=> pure component :{ components render output is purely baseed on that state and props cannot change and update  }
+=> regular componets : {components re-render whenever it receives new props or its state changes }
+
+=> higher order component 
+=> state full and stateless component 
+=> strict mode 
+=> map object 
+=> filter method 
+=> reduce 
+=> react strict mode 
+=> reconcilation 
+=> synthetic events 
+=> explore class components & life cycle methods 
+=> uses of useEffect without dependency array 
+=> 
+
 
 
 

@@ -102,7 +102,7 @@ diffing :{component compare cheythe maatunnu
 
   const {title,data}=props
   return ( <h1>{title } {data}</h1>
-
+=> functional component take the props ans an object parameteres 
 
 
 

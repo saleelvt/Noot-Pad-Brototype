@@ -56,6 +56,14 @@ advantages of next.js
 
  * use Effect 
  * use Ref
+  ---------
+=> useref hook in react allows you to create a mutable ref object 
+-> this object intract with our  DOM applay various task for doing as well here are the common cases
+
+* Accesing dom elements: you can use the useRef dom elements directly and interact eith them imperatively :{like focusing an input field or trigger animations } 
+* storing mutable values 
+* 
+
  * use History vs use Navigate 
 
 => Learn the concept fo event handlers 
