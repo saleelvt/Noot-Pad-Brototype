@@ -1,0 +1,33 @@
+React 2 
+-------
+=>useCallback 
+------------
+-> useCalback is used to return Memoize function 
+-> it also useful for preventing function from being recreated on re-rendering {rerender cheyyumbo undakunna function thadayunnu }
+=> useMemo
+----------
+-> useMemo hook use used to apply Memoization in React 
+* Memoization :{memoization is a technique for improving the performance of your code }
+=> user
+=> React.memo vs useMemo
+=> useContext and conetext API 
+=> useReducer 
+=> React.Lazy - code splititing 
+=> pure function 
+=> React.memo depends on
+=> what does useMemo depend on to re-run the callback
+=> React suspense
+=> horizontal scrolbars 
+=> HOC
+=> pure components 
+=> when react component re-render 
+=> difference between useMemo and useCallback 
+=> how to update state in useReducer 
+=> synthetic events 
+=> react latest version 
+=> webpack 
+=> bable 
+=> automatic batching 
+=> uselayout 
+=> debouncign 
+

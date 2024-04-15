@@ -6,7 +6,6 @@ SQL Advanced
 
 
 
-
 * subquery 
 ----------
 -> the subquery is the query within another sql query that will have embedded within the where clause
@@ -22,6 +21,7 @@ some condition must be follow
 -> first inner query aanu exicute cheyya 
 -> subquery () braisinte ullil parentheses nte ullil aavum undaava 
 -> order by commant cannot be work
+
 
 
 

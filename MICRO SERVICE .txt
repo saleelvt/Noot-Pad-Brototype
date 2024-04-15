@@ -1,0 +1,26 @@
+MICRO SERVICE 
+-------------
+-> software architecture styles :[we want to wright your code with any architecture }
+-> ooro oro cheriya cheriya functionality aayi diffrent service il host cheyya
+-> code error vannal eathengillum oru cheriya api matram manage cheytha mathi 
+-> diffrent api can code with programing language 
+
+=> containerization 
+-------------------
+-> containerization used to pack our chunk chunk code as a container and run within a server to avoid server issues 
+-> doker and qubernet 
+-> containerizaed image :{ellam koodiya bagam }
+
+=> container orchestration 
+--------------------------
+ => the process of imaging file working through container orchestration because it can scale whenever we want 
+->  it healing automaticaly when server is down 
+-> creating instence automaticaly 
+-> 
+=> foveated rendering
+---------------------
+=> apple vision proil okke ubayoogikkunna kann focus cheyyunn bagam matram eduth baki ullava ellam blur cheyya new technokonegy and its is a very importent part of our eye work 
+
+gemini
+------
+-> devoloped by DeepMind of google 

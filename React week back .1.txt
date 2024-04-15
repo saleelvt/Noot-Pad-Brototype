@@ -45,6 +45,8 @@ React week back .1
 => Portals 
 => Error Boundary 
 => Higher Order Components [HOD]
+--------------------------------
+
 => Render Props 
 => Context Api 
 => HTTP 
@@ -55,12 +57,11 @@ React week back .1
 ---------
 rest endpoints
 api 
- :{axios is a powerfull library used for send asynchronous  http rquest to rest endpoints , this library very useful to perform }
+ :{axios is a powerfull library used for send asynchronous  http rquest to rest endpoints working with ajax as simplifyed  this library very useful to perform }
 
 => pure component :{ components render output is purely baseed on that state and props cannot change and update  }
 => regular componets : {components re-render whenever it receives new props or its state changes }
 
-=> higher order component 
 => state full and stateless component 
 => strict mode 
 => map object 
@@ -71,7 +72,24 @@ api
 => synthetic events 
 => explore class components & life cycle methods 
 => uses of useEffect without dependency array 
-=> 
+
+
+=> ajax :{asynchoronus javaScript And xml }
+-------------------------------------------
+=> ajax is one of the best asynchronous opration 
+page reload cheyyathe nammaka page load cheyya 
+-> preventing the backpost method
+=> autoSggetion tharum 
+Dynamic Content Loading: ...
+Form Submission and Validation: ...
+Autocomplete and Suggestions: ...
+Infinite Scrolling: ...
+Updating User Interfaces: ...
+Single Page Applications (SPAs): ...
+Live Search and Filtering: ...
+Interactive Maps:
+
+
 
 
 

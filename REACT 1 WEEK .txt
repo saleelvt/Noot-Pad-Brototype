@@ -72,11 +72,11 @@ react is declarative
 => props and states
 --------------------
 -> props you want to pass in to a component    &&  -> state is handled inside of taht component 
--> props handle the outside of the components  &&  -> 
+-> props handle the outside of the components  &&  -> state pass cheytha data vach work cheyyan inside of a component 
+-> props immutable                                  -> state mutable chage cheyyam 
 
 => life cycle methods  && depented on useEffect 
 -----------------------------------------------
-
 => oru componentil enth maatam varuthaan automatic aayi ulla method 
 
 some case of life cycles method 
@@ -84,13 +84,14 @@ some case of life cycles method
 * updating  :{ componentinte ullile value maatanengil updating aaanu  }
 * unmount   :{ remove a component our code
 
-
--> {import form react : useEfferct  } & creat function 
-
 -> react routing 
 ----------------
 => routing is the best way for avoid the rendering 
 -> we can simply change our pages without refresh actually the react work only one htlm page we just change the page components accordingly
+=> controlled : In a controlled component react, state handles all the form data 
+=> uncontrolled : , the HTML form element data is managed by only the DOM
+=> Lazy loading in React allows you to split your code into smaller chunks, loading only the code that is needed for a 
+particular part of your application when it is actually required
 
 => single page application and multiplage  
 
