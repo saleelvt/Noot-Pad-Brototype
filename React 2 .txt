@@ -10,10 +10,42 @@ React 2
 * Memoization :{memoization is a technique for improving the performance of your code }
 => user
 => React.memo vs useMemo
-=> useContext and conetext API 
+=> useContext 
+-------------
+-> the useContext hook used to pass data without passing all child we can pass data where ever we want data that only component and \
+   access our data globlay 
+=> conetext API 
 => useReducer 
 => React.Lazy - code splititing 
 => pure function 
+=> elements
+------------
+-> elements  are creaitng by using   tag from components ,we can create the many element from a component 
+-> that will gone to dom element 
+-> element name is the fucntion name must be start with upper case 
+-> we can use the refference name  
+-> we can pass the element name as a object that time we want to call :{obj.nameoft}
+how to create a context 
+----------------------
+-> props allathe nammak pass cheyyan nammak oru 
+-> global aaya context object creat cheyyanam 
+-> function call cheyyan unde 
+-> react.creatContext() componentinte purathaan ith vilika 
+-> { 2 ARGUMENTS OF THIS OBJ : 1 = provider 2 = consumer } - this 2 arguments are maine they had more arguments 
+providing 
+---------
+-> if you want pass a data to childs components you can creat a provider between teh mein components provider aanu pinne ellathilkum data pass chyyuka as a prop that time we can simply access the data from parent components 
+
+consuming 
+---------
+-> ee dataye edukkunna or read cheyyunna  process elladthum 
+-> functional componentil nammak ithine edukkan useContext ubayoogikkunnu 
+-> class componentil nammal : consumer method and contextype method will use 
+
+
+
+
+
 => React.memo depends on
 => what does useMemo depend on to re-run the callback
 => React suspense
