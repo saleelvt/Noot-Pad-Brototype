@@ -53,11 +53,16 @@ React week back .1
 => importance of using key prop while mapping an array 
 => state vs variable
 => controlled vs uncontrolled elements 
+
 => axios
 ---------
 rest endpoints
 api 
  :{axios is a powerfull library used for send asynchronous  http rquest to rest endpoints working with ajax as simplifyed  this library very useful to perform }
+
+=> fetch mehod 
+--------------
+-> fetch method retern the string we want to convert json 
 
 => pure component :{ components render output is purely baseed on that state and props cannot change and update  }
 => regular componets : {components re-render whenever it receives new props or its state changes }
@@ -88,7 +93,6 @@ Updating User Interfaces: ...
 Single Page Applications (SPAs): ...
 Live Search and Filtering: ...
 Interactive Maps:
-
 
 
 

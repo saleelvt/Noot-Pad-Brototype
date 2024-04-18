@@ -10,14 +10,35 @@ React 2
 * Memoization :{memoization is a technique for improving the performance of your code }
 => user
 => React.memo vs useMemo
-=> useContext 
+=> createContext, useContext 
 -------------
 -> the useContext hook used to pass data without passing all child we can pass data where ever we want data that only component and \
    access our data globlay 
+
+
+
 => conetext API 
+
 => useReducer 
+--------------
+-> if you want manage complex state :{like object states and that childre may have another state  } that time we can use the useReducer 
+-> nammude state multiple aayi parann kidakkunnundengil nammak ubayoogikkam 
+
+features of useReduce()
+----------------------
+-> pattern like redux
+-> reduce will first call the dispatch() and the dipatch function pass the state to reducer function 
+
+
 => React.Lazy - code splititing 
 => pure function 
+----------------
+-> reducer functions are should  always be pure funciton
+-> pure function is that will depends only on input areguments
+
+
+
+
 => elements
 ------------
 -> elements  are creaitng by using   tag from components ,we can create the many element from a component 
@@ -51,15 +72,43 @@ consuming
 => React suspense
 => horizontal scrolbars 
 => HOC
+-------
+-> higher order components are taking the input as a components 
+
+
+React.memo()
+------------
+-> the react.memo() is a higher order component 
+-> react.memo() hoc  matu componentinte rendering controll cheyyan ubayoogikkunnu 
+
+
 => pure components 
 => when react component re-render 
 => difference between useMemo and useCallback 
 => how to update state in useReducer 
 => synthetic events 
+-------------------
+-> synthetic events are diffrent from native event 
+
+
 => react latest version 
+----------------------
+React 17 had several bug fixes related to the JSX transform, the new low-level caching, and more. React 18 introduces a few new features including a new context API, an experimental Suspense Hook, and an improved server-side rendering memory utilization.
 => webpack 
 => bable 
 => automatic batching 
 => uselayout 
 => debouncign 
+=> Rest web services
+-----------------
+-> the web services are mnythings rest web services are work with very efficiantly and request will go and respond will come and finish 
+-> connectionless 
+-> server maayi connection illa athaan pratheegatha request varumbo matram poyi eudttuvarum 
+-> method of serverces :{get put pacth ,delete update}
+-> data varuka : json format aavum >
+
+axios and fetch 
+---------------
+-> 
+const arr = Object.entries(obj);
 
