@@ -1,0 +1,20 @@
+Redux Course plan 
+-----------------
+
+=> Redux - Redux Core 
+=> react-redux 
+=> Redux Toolkit 
+
+-> Asynchronous State Update 
+
+-> redux core providing a store :{create store }
+-> it return a object with 3 arguments 
+  * state
+  * Dispatch() 
+  * Subscribe { it will return a function like what we want ,we can pass the function like use effect    }
+-> store.subscribe(()=>{log(store.getState )})
+-> getState() : {latest state labhikkan }
+-> maatam varuthan -> dispatch 
+-> reducer vilikkum 
+-> state and action :{logic we can also wright here }
+-> 

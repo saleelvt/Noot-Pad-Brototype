@@ -1,0 +1,72 @@
+Redux Topics 
+------------
+
+
+
+=> Redux
+---------
+-> redux is a state management js library in react {optional package   }
+-> Redux is a State Mangement : Redux is a Global State management  
+-> Redux tool kit is the Abstaraction of Redux 
+-> Renderukal controll cheyyunnu and we can add new component Easy to add new components 
+-> we can update state Asynchronously 
+-> state asynchronously update chetyan nammal Thunk  add on ubayoogikkam ,we are updating state immutable 
+-> we changing our state like immutable like use with spread operater and add new elements 
+
+
+
+=> Store ,
+=> Provider,
+=> Reducer ,
+=> Actions 
+
+=> useSelector()
+=> useDispatch()
+
+
+
+
+=> Thunk
+---------
+-> thunk allow to update state Asynchronously 
+=> immer 
+---------
+-> immer is the redux package used to declire our state mutable state update 
+
+=> React redux 
+--------------
+-> is a package for connect react ui and redux nammak bind cheyyan pattum 
+-
+=> Axios
+=> Debouncing 
+=> Throttling
+=> Polyfills
+=> Prop Drilling 
+-----------------
+-> it is a operation of reducx if you want to pass a data to nested components redux will create a global storage for store our states 
+then it will pass as we want .. and you can also pass nested components like a props 
+
+
+
+=> Webpack
+=> Localization
+=> Publishing npm package
+=> Strict mode
+=> Concurrent Mode
+=> Custom Hooks vs Function
+=> Prototypes
+=> Custom higher order compoennts=
+=> Axios interceptors
+=> Axios cancelToken
+=> debouncing
+=> Throttling
+=> Polyfills
+=> Webpack
+=> Localization
+=> Publish npm Package
+=> React strict mode
+=> React concurrent mode
+=> core principles of Redux
+=> mapStateToProps() vs mapDispatchToProps()
+=> pure components
+=> lifecycle methods using useEffect
