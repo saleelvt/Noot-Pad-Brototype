@@ -1,7 +1,7 @@
 Redux Topics 
 ------------
 
-
+react is the library for creating building interfaces  redux is js library for managing state in a predictable way in js application 
 
 => Redux
 ---------
@@ -14,6 +14,7 @@ Redux Topics
 -> we changing our state like immutable like use with spread operater and add new elements 
 
 
+Redux is a state container : {redux store the state of your application }
 
 => Store ,
 => Provider,
@@ -68,5 +69,17 @@ then it will pass as we want .. and you can also pass nested components like a p
 => React concurrent mode
 => core principles of Redux
 => mapStateToProps() vs mapDispatchToProps()
+--------------------------------------------
+
+  state labikkuvaan nammal connect() nte 1 argument aayi mapStateToProps( return = 1 argument redux full state of redux ) : its a function 
+  connect inte 2 argument : mapDispatchToProps : ith like Mateen but state alla pass akkunna we can pass our dispatch and reduce the dispathch function form code 
+
+
+
+-> if you want a data or store in your component we can use the context 
+-> but if you are working with class component  you can use the Context.Consumer that you want to put parent component which you want pass data to child 
+-> functional componentil aanenegil we can use the hooks for wrap provider like useSelecter and usedispatch 
+-> but if you are working in a class component you need to use the higher order component is  connent() method for consume dispatch and store   
 => pure components
 => lifecycle methods using useEffect
+=> lifecycle method rdux  

@@ -24,3 +24,24 @@ Defining Types (Explicit Types )
 -> let number: number=21
 -> let skills :string[] =['typewriter','logical Operator, 'content creator']
 -> let object : string{name:string ,age:number}
+-> object use cheyyumbol nammak suggestion aayi varum 
+
+interface property 
+------------------
+-> it is used for object details we can set multiple places 
+-> as we want 
+
+* when we are declare a function inside of a object we want to wright like this 
+  { getName : ()=> void  }  void kodukkanan with function name 
+
+* union operator 
+----------------
+-> if you want declare multiple data type like :{let age : string | number} ='forteen '
+
+
+
+
+
+
+
+

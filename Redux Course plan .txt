@@ -2,6 +2,9 @@ Redux Course plan
 -----------------
 
 => Redux - Redux Core 
+-----------------------
+-> redux library 
+
 => react-redux 
 => Redux Toolkit 
 
@@ -18,3 +21,31 @@ Redux Course plan
 -> reducer vilikkum 
 -> state and action :{logic we can also wright here }
 -> 
+
+
+React Redux 
+------------
+-> normal redux  : getState() =>this function will return latest state 
+-> react redux   : we want to use the useSelector Hook for get latest state 
+
+-> normal redux : we want to call dispatch function 
+-> react redux : we have  useDispatch hook for getting action of that function 
+
+
+combined reduce()
+------------------
+-> if we are using the reducer function you will get the so many reducer function cases that time you can use the combine Reducers()
+- > it is a utility for splitting the code as a function 
+-> combine Reducer is a function that will return a function 
+
+Redux Tool kit 
+--------------
+=> redux tool kit is the store action ellam matuka redux il matram storil matam varuthuka 
+
+* what will change using tool kit 
+---------------------------------
+-> we can write our store actions like function instead of switch case 
+-> auto creation of function 
+-> immer library ubayoogich nammak action nammak mutable aayi kodukkam 
+
+
