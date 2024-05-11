@@ -36,7 +36,13 @@ combined reduce()
 ------------------
 -> if we are using the reducer function you will get the so many reducer function cases that time you can use the combine Reducers()
 - > it is a utility for splitting the code as a function 
--> combine Reducer is a function that will return a function 
+-> combine Reducer is a function that will return a function  
+-> so we can pass our function with split so that will more applicable 
+  
+Action Creator 
+-------------
+
+-> 
 
 Redux Tool kit 
 --------------

@@ -30,6 +30,8 @@ Redux is a state container : {redux store the state of your application }
 => Thunk
 ---------
 -> thunk allow to update state Asynchronously 
+-> asynchronously call our dispatch function 
+
 => immer 
 ---------
 -> immer is the redux package used to declire our state mutable state update 
@@ -42,12 +44,16 @@ Redux is a state container : {redux store the state of your application }
 => Debouncing 
 => Throttling
 => Polyfills
+
 => Prop Drilling 
 -----------------
 -> it is a operation of reducx if you want to pass a data to nested components redux will create a global storage for store our states 
 then it will pass as we want .. and you can also pass nested components like a props 
 
-
+=> lifecyclemethods class and functional component 
+--------------------------------------------------
+-> the class component lifecycle methods are componetDidUpdate() and componentDidMount() for perform actions at specific point in component
+-> the functional component have lifecycle methods like Mounting ,Updating, Unmounting  
 
 => Webpack
 => Localization
@@ -75,7 +81,6 @@ then it will pass as we want .. and you can also pass nested components like a p
   connect inte 2 argument : mapDispatchToProps : ith like Mateen but state alla pass akkunna we can pass our dispatch and reduce the dispathch function form code 
 
 
-
 -> if you want a data or store in your component we can use the context 
 -> but if you are working with class component  you can use the Context.Consumer that you want to put parent component which you want pass data to child 
 -> functional componentil aanenegil we can use the hooks for wrap provider like useSelecter and usedispatch 
@@ -83,3 +88,18 @@ then it will pass as we want .. and you can also pass nested components like a p
 => pure components
 => lifecycle methods using useEffect
 => lifecycle method rdux  
+-> Profiler
+-----------
+-> React js Profiler Is a tool for profiling the react components we can measure how many times the react application or our components rendered it will   identify the cost of the application and which is the most rendered components 
+
+
+-> RenderProps
+--------------
+-> 
+-> class component data data receiving and passing 
+-> persistence 
+--------------
+-> persistence is the ability of the storing and retrieve of yours application's state across page reload and rerenders even user close the browser 
+-> it is important thing in react without state persisting data would be delete 
+
+
