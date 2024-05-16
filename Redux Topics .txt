@@ -41,9 +41,18 @@ Redux is a state container : {redux store the state of your application }
 -> is a package for connect react ui and redux nammak bind cheyyan pattum 
 -
 => Axios
-=> Debouncing 
-=> Throttling
+=> Debouncing & Throttling
+--------------------------
+-> these are a useful  technique used to apply as we want 
+-> make optimize the performance 
+-> improve user experience 
+-> limit the rate of function execution 
+{ both are using feature full application but throttling work with a certaing evenet  mateeth after events  } 
+
+
 => Polyfills
+------------
+-> it Is a code that provide function to add features like promise fetch to our older browssers that do not support it 
 
 => Prop Drilling 
 -----------------
@@ -65,9 +74,6 @@ then it will pass as we want .. and you can also pass nested components like a p
 => Custom higher order compoennts=
 => Axios interceptors
 => Axios cancelToken
-=> debouncing
-=> Throttling
-=> Polyfills
 => Webpack
 => Localization
 => Publish npm Package
@@ -92,14 +98,23 @@ then it will pass as we want .. and you can also pass nested components like a p
 -----------
 -> React js Profiler Is a tool for profiling the react components we can measure how many times the react application or our components rendered it will   identify the cost of the application and which is the most rendered components 
 
+Does React render on props change?
+-----------------------------------
+Summary: A prop change does not re-render a component if the prop is stored as a local variable.
+ It only re-renders when the prop is stored as a state variable.
 
 -> RenderProps
 --------------
 -> 
 -> class component data data receiving and passing 
+
 -> persistence 
 --------------
 -> persistence is the ability of the storing and retrieve of yours application's state across page reload and rerenders even user close the browser 
 -> it is important thing in react without state persisting data would be delete 
 
+=> Featres of DRF
+-> Promise 
+-> redux thunk 
+-> 
 

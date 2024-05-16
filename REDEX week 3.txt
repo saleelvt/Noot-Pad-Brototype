@@ -12,6 +12,7 @@ REDEX week 3
 
 2. User side
 -----------
+
 Login/Register
 Home page (navigation to user profile)
       c.   User Profile page (must have file upload option for profile image)
