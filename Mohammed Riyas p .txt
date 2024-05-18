@@ -1,0 +1,5 @@
+JAVA SCRIPT
+-----------
+
+=> NODE AND JS PROVIDE THE RUN TIME ENVIRONMENT IN OUR JS CODE 
+-> actually the js and node depented js inner the browser node outer connection the browser like we want pass data to out side of the browser : db 
