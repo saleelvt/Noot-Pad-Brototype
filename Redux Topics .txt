@@ -1,4 +1,4 @@
-Redux Topics 
+  Redux Topics 
 ------------
 
 react is the library for creating building interfaces  redux is js library for managing state in a predictable way in js application 

@@ -13,6 +13,28 @@ fooddb> db.doc1.updateOne({foodname:'burger'},{$push:{chefname:{$each:['nana','h
 => exist and expr {exist oru document il kodukkunna Field undo enn nokkan / expr compare with same document perticular condetion  }
 => grid fs {mongo db yile grid file system  valiya valiya binary data store cheyyanun retrive cheyyanum aanu ubayoogikkunnath  }
 => one chunk data size(255kb)
+=> if you want update a document if it is not found then you can use the upsert option .
+
+
+=> comparison
+-------------
+
+=> &in: fooddb> db.saleel.find({hobbies:{$in:['coding',"speaking"]}})
+$or: Returns documents where either query matches
+$nor: Returns documents where both queries fail to match
+$not: Returns documents where the query does not match
+
+
+
+
+
+
+
+
+
+
+
+
 
 Java Script array methods
 -------------------------

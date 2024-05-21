@@ -1,0 +1,256 @@
+Full Domain All Topics 
+----------------------
+
+
+Hash Structures
+---------------
+
+Hash Map 
+Hash Table
+Open Addressing
+Separate Chaining
+Collision Handling
+Resize a Hash Table
+Quadratic Probing
+Linear Probing
+Double Hashing
+Load Factor
+
+Trees and Graphs
+----------------
+
+AVL Tree
+Spanning Tree
+Minimum Spanning Tree
+Binary Search Tree
+Red-Black Tree
+B+ Tree
+Segment Tree
+Suffix Tree 
+Prefix Tree 
+Complete Tree
+Full Tree
+Perfect Tree
+Trie
+Graph Representation
+Directed Graph
+Undirected Graph 
+Weighted Graph
+Graph Indexing / 
+Geo Spacial Indexing
+Prim's Algorithm
+Dijkstra's Algorithm
+Bellman-Ford Algorithm
+Topological Sorting
+Acyclic Traverse
+Degree of Graph
+Height of Tree
+Mirror Tree
+Stack Overflow / Underflow
+
+Sorting and Searching
+---------------------
+
+Bubble Sort  
+Insertion Sort
+Selection Sort
+Quick Sort
+Merge Sort
+Linear Search vs Binary Search
+
+Complexity and Optimization
+---------------------------
+
+Big-O Notation
+Time Complexity in Linked List and Array
+Quadratic Time Complexity
+Asymptotic Notation and Graph Equation
+BFS Complexity
+DFS Complexity
+
+Linked Lists
+------------
+
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Circular Doubly Linked List
+Hierarchical Linked List
+
+Stacks and Queues
+-----------------
+
+Stack
+Queue
+Priority Queue
+Enqueue, Dequeue
+Monotonic Stack and Queue
+Call Stack
+Monotonic Stack
+Monotonic Queue
+Application of Stack
+
+Other Data Structures
+---------------------
+
+Heap
+Min-Heap
+Max-Heap
+Heapify Up, Heapify Down
+Priority Key
+Static Array and Dynamic Array
+Jagged Array
+Database and Backend
+
+Database Concepts
+-----------------
+
+Transaction
+Isolation Levels
+Clustered Collection
+Clustered Index
+Covered Query
+TTL (Time-to-Live)
+GridFS
+Sharding
+Shard Key
+Primary Replica Set
+BSON Document / BSON Advantages
+Journaling
+Database Profiler
+Partition Tolerance
+Capped Collection
+Horizontal Scaling
+Namespace
+$ne, $nin
+$elemMatch
+$merge
+$out
+$facet
+
+Server and API
+---------------
+
+express.urlencoded
+app.all
+app.locals
+setHeader
+writeHead
+OPTIONS Method
+Rate Limiting
+Content Security Policy
+HTTP Compression
+Proxy Object
+Reverse Proxying
+Structure of HTTP Response
+JWT Claims
+CookieParser
+Same-Origin Policy (SOP)
+Preflight Request
+LocalStorage vs Browser Cache
+Statelessness of HTTP
+Programming and Development
+
+JavaScript and Node.js
+----------------------
+
+Factory Function
+Map and flatMap
+Evnt Bubbling / Event Propagatione
+Promise.race
+Throttling
+Nullish Coalescing Operator (??)
+Bitwise Operator
+Null Pointer Exception
+Method Chaining
+Callback Queue
+setTimeout
+Promisify
+Proxy Traps
+Polyfills
+Variable Shadowing
+Deep Freeze
+Same-Origin Policy (SOP)
+execFile
+Clustering
+EventEmitter
+\
+
+React and Frontend
+------------------
+
+Render Props
+Redux Persistence
+Immutable Data in Redux
+Time Travel in Redux
+Saga
+Controlled Components
+Uncontrolled Components
+Error Boundary
+Shadow DOM
+Lazy Loading in React
+Pure Component
+React.memo
+forwardRef
+Native Events
+Synthetic Events
+Event Pooling
+BrowserRouter
+MemoryRouter
+Dynamic Import
+Tree Shaking
+Dead Code Elimination
+
+Miscellaneous Concepts
+----------------------
+
+ 1: Concurrency and Threads
+
+Thread Pool
+Spawn() vs Fork() vs Exec()
+Concurrency
+Content Negotiation
+Dispatch
+Socket
+CSRF
+
+Miscellaneous Algorithms and Techniques
+---------------------------------------
+
+Divide and Conquer
+Tarjan’s Algorithm
+Check if a Linked List Forms a Loop
+Find the Degree of a Vertex
+Serialize a Binary Tree
+Write a Function to Check if a String is Palindrome
+Function to Return the Product of Highest Frequency Element and its Frequency from an Array of Numbers
+Remove the Highest Value and Remove it from Object with Destructuring
+Write a Function which will Return the Extra Char
+Implement Queue with Linked List
+Application of Stack
+Weighted Graph
+Advanced Topics
+
+Advanced JavaScript
+-------------------
+
+JIT (Just-In-Time Compilation)
+ECMAScript
+Static Keyword
+Structured Clone
+bind()
+strict mode
+Object.entries
+Labels
+eval()
+
+Additional Topics
+-----------------
+
+CAP Theorem
+API Versioning
+Transpiler
+HTTP Compression
+Content Security Policy
+Dynamic Import
+

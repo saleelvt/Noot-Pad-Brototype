@@ -1,12 +1,26 @@
 Node js
 -------
 backend ile js ezhuthaan 
-=> post man toop{its used for known abuot api functionality / http methods aaya get put post ithallam work aavunnunde enn ariyan aan}
+
+=> node js it is runs single threaded :{handle a task simultaneously} and non-bloking : donot affect another execution of a code 
+   and that only will deligated  asynchronous programming 
+=> node.js can create dynamic page content ,node can create open wright delete on server ,can collect form data , database management 
+
+modules 
+-------
+=> if you want to work with the file uploads you can use the formdable module 
+
+
+
+ => post man toop{its used for known abuot api functionality / http methods aaya get put post ithallam work aavunnunde enn ariyan aan}
+
+
 => {js functions anothor style founded}=> 
     function add(){
        return 10
         }
     console.log(add())
+
 => global object and window object {js writing frondend code use with window // node can write backend in vs use with global   }
 
 => log(__dirname),(__filename)
