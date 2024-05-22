@@ -1,6 +1,7 @@
 Mongodb and Java Script
 -----------------------
 
+
 => $push               {array}
 => $pull               {}
 => $addToSet           { push cheyyan veendum veendum athanne keetilla}
@@ -13,7 +14,8 @@ fooddb> db.doc1.updateOne({foodname:'burger'},{$push:{chefname:{$each:['nana','h
 => exist and expr {exist oru document il kodukkunna Field undo enn nokkan / expr compare with same document perticular condetion  }
 => grid fs {mongo db yile grid file system  valiya valiya binary data store cheyyanun retrive cheyyanum aanu ubayoogikkunnath  }
 => one chunk data size(255kb)
-=> if you want update a document if it is not found then you can use the upsert option .
+=> if you want update a document if it is not found then you can use the upsert option
+
 
 
 => comparison
@@ -26,13 +28,12 @@ $not: Returns documents where the query does not match
 
 
 
+=> clustered index and clustered collection 
+-------------------------------------------
 
-
-
-
-
-
-
+=> clustered collection which mean the collection with clustered index 
+-> clustered index is the index we can store our data as a sorted order or dictionary order that is more better than non clustered index 
+-> fetching elements very quickly 
 
 
 

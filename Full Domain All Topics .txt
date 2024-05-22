@@ -102,22 +102,82 @@ Static Array and Dynamic Array
 Jagged Array
 Database and Backend
 
+
 Database Concepts
 -----------------
 
 Transaction
+----------
+-> transaction is set of any logical operation in our data base that ensure the integrity and consistency of our data base 
+* ADID properties are the key feature of the transaction that ensuring the database reliability 
+Atomicity :  every operation should run however else it will be aborted 
+Durability : 
+Consistency : 
+Isolated :  
+
 Isolation Levels
-Clustered Collection
-Clustered Index
-Covered Query
+----------------
+
+READ UNCOMMITTED , READ COMMITTED , REPEATABLE READ , and SERIALIZABLE .
+
+
+=> clustered index and clustered collection 
+-------------------------------------------
+
+=> clustered collection which mean the collection with clustered index 
+-> clustered index is the index we can store our data as a sorted order or dictionary order that is more better than non clustered index 
+-> fetching elements very quickly  
+
+Covered Query : 
+--------------
+=> covered query is the part of the query 
+=> Covered queries are a powerful tool for optimizing database performance
+=> performance , Reduced load ,efficiency 
+=>  only the fields involved in the specific query need to be covered by an index.:{what you search that should wrapped with index }
+
 TTL (Time-to-Live)
+------------------
+-> sigle field index 
+-> we can put the index with time whenever the time reached the indexed field will go 
+
 GridFS
+------
+-> grid fs Is a specification that used to describe to split the file chunks file during storing and reassemble them when that retrieval 
+
+ 
 Sharding
+--------
+Database sharding is the process of storing a large database across multiple machines. A single machine, or database server, can store and process only a limited amount of data.
+sharding is a process in our data base that distributing data across multiple machines 
+-> sharding storing horizontally scale storage and workloads in the face of increased demand 
+-> splitting data across multiple machines 
+
+=> the replication 
+------------------
+-> the replication means the the primary server node copies data onto secondary server node 
+-> this can help increase data backup and availability 
+-> this process conducting the replication if the primary server fails then  the replication will be set the next primary server from the best secondary
+   server 
+* ranged sharding and hashed sharding 
+
+
+
+
 Shard Key
 Primary Replica Set
 BSON Document / BSON Advantages
+
 Journaling
+----------
+-> if you are close the mongodb server and again you login that time the journaling will take the previous datas in your code 
+-> if crash your storage the journaling trigger the last consistent state after a crash and restored tha lsast consistent checkpoint during recovery 
+
 Database Profiler
+----------------
+-> the profiler collecting the query execution times 
+-> you can find the how many queries are took the more than given time or milli second and timing for all queries 
+-> The profiler collects data for all operations.
+
 Partition Tolerance
 Capped Collection
 Horizontal Scaling
@@ -127,6 +187,8 @@ $elemMatch
 $merge
 $out
 $facet
+
+
 
 Server and API
 ---------------
@@ -174,7 +236,8 @@ Same-Origin Policy (SOP)
 execFile
 Clustering
 EventEmitter
-\
+
+
 
 React and Frontend
 ------------------
