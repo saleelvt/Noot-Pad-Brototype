@@ -26,7 +26,11 @@ $or: Returns documents where either query matches
 $nor: Returns documents where both queries fail to match
 $not: Returns documents where the query does not match
 
-
+update operations 
+-----------------
+=> $currentDate:{date:true}
+=> $group :  bookdb> db.doc1.aggregate([{$group:{_id:'$publisher',totalsales:{$sum:'$price'}}}])
+= $addFields: {avgGrade: { $avg: "$grades.score" }} },
 
 => clustered index and clustered collection 
 -------------------------------------------
@@ -34,6 +38,19 @@ $not: Returns documents where the query does not match
 => clustered collection which mean the collection with clustered index 
 -> clustered index is the index we can store our data as a sorted order or dictionary order that is more better than non clustered index 
 -> fetching elements very quickly 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

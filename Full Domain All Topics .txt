@@ -180,6 +180,11 @@ Database Profiler
 
 Partition Tolerance
 Capped Collection
+----------------
+=> the capped collection is the type of collection with a fixed size and  once the size reached the oldest elements are automatically 
+removed and to make space to new documents 
+=> you cannot delete the single document from capped collection that automatically removed 
+
 Horizontal Scaling
 Namespace
 $ne, $nin
