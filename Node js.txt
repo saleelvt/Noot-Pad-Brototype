@@ -9,6 +9,8 @@ backend ile js ezhuthaan
 modules 
 -------
 => if you want to work with the file uploads you can use the formdable module 
+=> ejs : for embedded js templates for rendering the html pages 
+=> 
 
 
 

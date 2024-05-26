@@ -221,6 +221,30 @@ Programming and Development
 JavaScript and Node.js
 ----------------------
 
+
+bson and json 
+-------------
+
+=> the json text based data that is interchanged and 
+-> better to debug and use 
+-> including the data types string boolien and array object 
+-> used to create web api and file 
+
+=> bson 
+--------
+-> bson is the machine language more efficient to store and read
+->  including more datatypes data objectid not readable 
+-> used to for store the mongodb and network datas 
+-> we can pass the complex data 
+
+
+=> encode and decode 
+--------------------
+-> original stirng to binary string : encode 
+-> opposite : decode 
+
+
+
 Factory Function
 Map and flatMap
 Evnt Bubbling / Event Propagatione

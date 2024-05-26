@@ -86,6 +86,28 @@ Java Script array methods
 => promise.any        {its return fulfilled a new promise return cheyyun athava rejecterd aayaal aggregate Error adikum }
 => ajax               {ajax serverk asyncronous request kodukkanum update cheyyanum part 
                        -> ithe oru web page full edukkilla kurach vech matam }
+=> decimals number and non decimal nmber 3.14 and 3 
+
+=> String methods 
+-----------------
+-> text.charAt(0) : it will print the character of that position 
+-> text.charCodeAt(0) : print the charCode of the  
+-> text.at(0)  : print also the first position 
+-> slice(0,10) : it is a string method and it will return value ill  0-10 positions 
+-> substring also == slice(0
+=> if you need eny inetex without the loop from the string : text.indexOf('word')
+=> incluede
+=> text.endWith(saleel) 
+=> text.staratWith('hello)
+
+
+functions
+---------
+=> function hoisting : {the function called before they initialized }
+=> self invoke : function call with  ()  / Function expressions will execute automatically if the expression is followed by ().
+=> return argument.length : I will return the number of arguments which given 
+
+
 
 
 js datastructure method 
