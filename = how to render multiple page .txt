@@ -1,0 +1,12 @@
+=> how to render multiple page 
+
+-> defalt aayi oru value set cheyya 
+
+
+
+Todo List 
+---------
+
+state vilich nammal oro lettersum eduth vekkanam sheesham nammal ellam koode arrayil vekkanam 
+-> type cheyyunna state manassilakan and full string store cheyyan
+-> inputil value set cheyyanam vlaue={todo } oronum save chryyan

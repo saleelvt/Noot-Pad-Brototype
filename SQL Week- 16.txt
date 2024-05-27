@@ -1,0 +1,377 @@
+SQL Week- 16
+------------
+
+=> Learn SQL database and complete basics of database operation use terminal 
+=> {
+
+
+Day 1 - 5/3/2024
+----------------
+* INSERT
+* UPDATE
+* DELETE
+* ALTER
+* TRANCATE
+* DROP
+
+
+
+Day 2 - 6/3/2024
+----------------
+* ACID Properties 
+
+ Transations
+-------------   
+-> the transation is a set of logical operations and set of rules programs for accessing with content of the database 
+ like {google pay transation and atm transation }
+
+4 properties of transations
+---------------------------
+-> Atomicity  :{ The atomicity is the all operation of the transaction want to run at least onece time else it will be aborted 
+                 -> eg : google pay transation   }
+-> consistency:{during the occuring the transations the data base should  to be consistent data base because we are eventing a transation one consistent     
+                data base to another data base } 
+-> isolation  : {during the transation the datas will have to be use for transation so at a time cannot able to allow for eny another transation   }
+-> durablity  : { the durablity is inticate the performence of the data base consistent state , the transation made the permenent changes  so the consistent 
+               state cannot failur even in the event system failure . } 
+
+
+
+
+
+
+* Normalization 
+---------------
+
+-> normalization is the process for reduce the redunducy data from our data base with it make more flexible and consist and more efficiantly working with data base so the normalaization process will be more protuctive our data base 
+-> is the process of minimizing redundancy from a relaiton or set of relations 
+
+-> normalaization have 5 levels :{ helps to eliminatie duplicap data and simplify queries }
+1-> first Normal form - 1nf
+2-> second normal form - 2nf
+3-> third normal form - 3 nf
+4->  
+
+
+
+=> scalar functions
+  -----------------
+scalar functions are used in sql like {ucase/uppercase,lcase/lower case, mid(),len(),round(),now(),format()}
+
+-> select * ,length(name) as lengthofname from class;
+-> select id ,upper(name) as upper_class from class;
+-> 
+
+
+
+
+
+
+ 
+=> base case oru transaction athumaayi islated aayirikum 
+-> 3 type or somethings 
+  delete alomalais {delete cheyyumbo aavaathe irika when oroodthnn poyi matoodth undavum tc }
+  insert alomalais insert avaateh irikka 
+  update alomalais  diffrent table connection illathathoonde access kitateh irika 
+
+
+
+* Constrains
+------------
+
+=> it used to specify roles in data base 
+=> the constraints are the set of rules of for increasing our data base reliability ensur the data base accuracy and 
+   if occure the violation in between data rule and action that will be aborted 
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+
+
+
+* Relationships
+---------------
+=> relationships is the table data access with foriegn key in any table 
+-> one to one and one to many and many to many 
+
+
+3 Schema Architucture 
+--------------------
+the 3 schema architucture ===levels of abstraction 
+-> db
+-> internal Schema     :{the data base structure and desiegn will be creating all so known as physical level  }
+-> conseptional level :{the logical level the next higher level we want to set the what type data and what is the relations between }
+-> external level     :{purath kk kaanunnath view level}
+=> Data indipented {oru preverthi mattonnine badhikkan padilla scema matumbhol  }
+
+
+
+
+
+Day 3 - 7/3/2024
+----------------
+* Joins
+-------
+
+=> the joins functions are the importent method in sql we can return the table with combain one ore more tables  with jointed 
+union 
+----
+-> union is like  a join with two tables so we would not need of the foreign key setting  
+-> union also return the distinict values if you want return all value you can give the union all method 
+-> union applay cheyyumol column name and data type are should be same 
+=> select {you want columns } from table name  union select {you wanted columns} form table name ;
+
+case states 
+-----------
+student=# select name ,salary ,
+student-# case
+student-# when salary >= 60000 then 'A'
+student-# when salary between 49000 and 55000 then 'B+'
+student-# else 'you are fail'
+student-# end
+student-# as grid
+student-# from class;
+-> the case states work as a if else contiotion 
+-> this is the statement of the case statement system and we can simply change the condition like a if else condition 
+
+
+
+
+Foreign Key 
+-----------
+
+=> you want now a table with relation so first create a foreign key {
+-> check refered table superate a id created or not : else create 
+and 
+-> alter table name of table you want create foreign key  
+-> add constraint {any name for give }
+-> foreign key (id or name from this table given  )
+-> references workers(id);
+}
+
+Inner join 
+---------
+
+= the inner join is the one of the best query for finding the values for matching with bouth tables 
+
+=> select * from nookeenda table 
+ and : inner join {refer cheyyeenda table } on {nookeenda id }={innahtil ninn nokunna id };
+=>  you can use the specific field as you wish like  : select salary ,place, name from thable name 
+
+=> the diffrents bitween the inner join and full join or outer join the inner join return only mached rows but that will return teh full table 
+ 
+=> full outer join : {left table and right table full datas kittum }
+* Indexing 
+----------
+
+=> indexing is used to give indexes to table  in sql for queckliy access and retrive  otherwise users cannot see the index
+
+* you want now the create index: create index {name of index} on {name of table name } (name ,address)
+Note -> if you want uniq index you can add the : create unique index 
+
+
+* Aggregate Functions
+
+
+Day 4 - 8/3/2024
+----------------
+* Scalar Functions 
+* SQL Queries 
+
+* Foreign Key Primary Key 
+------------------------
+=> the foreign key is used to in a relational dbms to join between two tables 
+
+
+* Closure 
+
+
+Day 5 - 10/3/2024
+----------------
+* Groupby
+-> the group by statement groups rows that have a sphecific coundition 
+  we can use the :{sum() ,avg(),count() ,max(),min()} functions 
+-> 
+
+
+
+
+* Having 
+---------
+=> having is a filtering query it use to after grupe by statement 
+
+ student=# select count(salary ) from class group by id having salary >50000 ;
+student=# select city ,salary from class group by city ,salary having (salary) <90000;
+-> the having clusur only use with aggregate functions and that want all row add to group by statement 
+
+* Transactions 
+* DML , DDL , DCL  :{Data manipulating language and data }
+
+
+
+=> alter table {name of table you want create foreign key}
+-> add constraint {any name for give }
+-> foreign key (id or name from this table given  )
+-> references workers(id);
+
+inner join ->
+ select * from {foriegn key undaakathath}
+ inner join {undakiya table} on undaatath .eny this= undakiyath.any  
+
+
+=> conflict :{ it will happening when we are trying to add a value that allredy existeed in db {uniqe matan noka }}
+
+=>
+* Super Key vs Candidate Key
+
+
+
+* Self Join vs cross join
+-> self join doing the joining itself table ,that often checking the rows in that table 
+-> cross join is the join method that joining with every rows first table and second table  without any condition 
+
+
+* Union vs Union All
+-> union is  like join commant we can simply return joined tables without using of foreign key that is we whant to set row for return that values 
+-> join return only uniqe values from both table but join all will return the all values from table 
+
+=> view in sql 
+--------------
+-> view is a vertual table that we can create a speciphic acssepts 
+-> set-of rules and from table 
+
+advantages :{
+-> view allow to create diffrent security level  for a tables  
+-> we can see our data different ways 
+-> it can hide complexity  
+
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+ -> LINE 1: select  saleel_a from class;
+-> delete view: drop view {name}
+-> edit view  : CREATE OR REPLACE VIEW {eny name you want } as select name ,address from {table name} where {.....};
+}
+
+
+* Intersect
+-----------
+=> if you want to check values from tow or more table you can check with intersect mehtod for mach cloumns both table 
+: select {you want columns } from {table name }  intersect select name from table name ;				
+
+ 
+
+* SQL and PL/SQL
+
+* Copy tables in SQL
+------------------
+=> copy table is the table that can copy with existing table 
+-> : create table {name of table new } as select * from {name of the existing table }
+
+
+* Sequelize
+-----------
+-> the sequelize is a library using with orm that can working with simply with database 
+-> orm is a 
+
+* Dead Lock
+* Clustered vs Non-Clustered Index
+ -> sort method and pycical oder and index key 
+ -> only one clustered index allowes / multiple roews 
+ -> faster than non clustered index 
+
+* UNION, MINUS, INTERSECT
+* Find the employees who have the second-highest salary in each department.
+* Group by
+* Stored Procedure
+* Advantages of stored procedure
+
+
+* Trigger
+---------
+=> triggers is a set of procedual statements when hapening automatically during eny event hapen {like insert and delete allthose }
+-> the triggers protuct data integrity of the data base 
+
+=> sql data base il trigger calll cheyyunnath either before or after the  event running 
+
+-> 3 triggre calling when ,insert event ,delete event ,update event 
+->  ithil thanne bfore event and after event unde 
+
+
+* Applications of Trigger
+-> enforces business roles 
+-> validate input data 
+
+* Cursor
+* Index
+-> indexing  can helps us for retrive our datas from table very efficiantly 
+* Disadvantages of Index
+-> thats takeing more space ,and the insert update delete will taking more time for do because that want search with index structure 
+* Types of index
+-> single index   :{index with eny columns }
+-> composite-index :{index for multiple columns}
+-> uniqe index     : uniqe 
+-> full text index 
+
+
+* common table expression
+-------------------------
+CTE are a feature in sql that allows you to define temporary result   sets within a query ,and that are especially useful for making complex queries more 
+and maintanable 
+
+
+* Candidate Key
+* Unique key vs Primary Key
+* Transactions
+* composite key :{ a composite key is can be defined as a combination of multiple columns  }
+* group by with having clause 
+* union 
+* alter-table adding constraints 
+* subquery 
+* Exists
+* stored procedure  
+
+
+=> The EXISTS :  operator is used to test for the existence of any record in a subquery. 
+
+
+ALL JOINS 
+---------
+=> self join mehtod => SELECT e.employee_name AS employee, m.employee_name AS manager
+FROM employees e
+LEFT JOIN employees m ON e.manager_id = m.employee_id;
+
+=> cross join :{select * from class cross join address }
+
+
+diffrent between primary key                                                                        and uniqe key 
+----------------------------                                                                        ------------                                     
+=> is a special type of unique key that uniquely indentifies each row |    => is unique key ensure values in a cloumn or groups of  columns 
+=> thre can only be one primary key in a table                        |    => can have multiple unique keys 
+=> the primary column not be null                                     |    => may be it will be null 
+=> 
+
+
+=> all and any and some
+-----------------------
+-> all ,any ,some can be use with where and having clause 
+=> student=# select * from class where salary > all (select unnest(array[1000,3,44,544,4322]));
+
+exists
+------
+=> The EXISTS :  operator is used to test for the existence of any record in a subquery. 
+=> student=# select address from class where exists (select address from address where address='manager');
+
+* backup database  syntax : BACKUP DATABASE {nameofdb} TO DISK = 'D:\backups\testDB.bak';
+
+
+
+
+

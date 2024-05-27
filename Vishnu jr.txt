@@ -1,0 +1,68 @@
+Vishnu jr
+---------
+
+=> js 
+-----
+ECMAScript 
+static keyword 
+structured Clone 
+bind() 
+strict mode 
+JIT 
+Object entries 
+labels 
+eval()
+tomorro's data 
+execution order when timers and callbackes are involved 
+scoping 
+remove the highest value and remove it from object with destructuring 
+
+
+DB 
+---
+isolation 
+covered query 
+-> developers who know more than 3 skills 
+-> developers who know html and css but not angular 
+-> unique skills without using distinct 
+
+React 
+-----
+accessing query params -lifecycle methods 
+running a callback when component unmounts 
+ESModules immutability of state
+
+common js -fs stat 
+express urlencoded 
+structure of HTTP response 
+JWT claims 
+localStorage vs browser cach 
+reverse proxying statelessness of HTTP -TLD 
+-default HTTPS port Dns sudo 
+
+DSA 
+---
+rehashing -utf-8 r kilobyt mark and sweep 
+- title case wbrads in sstirng 
+poop queue implementation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

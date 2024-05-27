@@ -1,0 +1,75 @@
+    React Topics .1
+---------------
+
+=> DOM concepts in js 
+=> Diffrence btw actual dom and virtual dom 
+=> Diffrence btw single page and multi page application 
+=> CSR vs SSR 
+--------------
+=> clint side rendering : {  when we are loading any page in react  the clint side rendering first a plan index will load after the datas like js things working  } 
+=> Server side rendering :{ load aavumbol first varuga what whant to user that will come from page and the js will load very fastly }
+* : next.js il some data will come when loading a page 
+advantages of next.js
+---------------------
+
+-> SEO :{search engine optemaisation } : the next js simplifies ssr with less complexity  and next js proied automatic routing and file based routing  ,api routing  
+-> SSG :{static site genaration }
+
+=>  ESLint :{ you can catch errors before they happen, making your code more reliable and easier to maintain}
+=> type Script :{ }
+=> Concept fo reusability 
+=> es6 versions syntaxes 
+ 
+ * Arrow functions 
+ * Map
+ * Destructuring 
+ * Filter
+ * Reduce 
+ * Import / Export
+
+=> Diffrence btw JSX and HTML 
+
+=> Learn about components 
+------------------------- 
+=> React is component based architecture ,componant can reusable and component contain another component nested inside 
+
+2 types of component 
+--------------------
+-> stateless funcional component :{is java script fuctional component that will take properties and return html ui like }
+-> stateful class component 
+
+
+ * Class (baisc)
+ * Functional 
+
+=> Dynamic rendering 
+=> Lifecycle mehtods 
+=> Learn the concept of hooks 
+
+ * use State 
+-------------
+-> useSate hook used to add state to functional components , it allows you to declare state variable and update 
+-> the useState call a initial state value as an argument it return and array with two elemetnt 
+
+
+
+
+ * use Effect 
+ * use Ref
+  ---------
+=> useref hook in react allows you to create a mutable ref object 
+-> this object intract with our  DOM applay various task for doing as well here are the common cases
+
+* Accesing dom elements: you can use the useRef dom elements directly and interact eith them imperatively :{like focusing an input field or trigger animations } 
+* storing mutable values 
+* 
+
+ * use History vs use Navigate 
+
+=> Learn the concept fo event handlers 
+ 
+ * onClick 
+ * onChange 
+
+=> learn the concept of React router 
+

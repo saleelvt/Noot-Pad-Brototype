@@ -1,0 +1,51 @@
+project week 
+------------
+
+-> node server.js ennath nammak nodemone server.js enn adikkam 
+
+-> lean method inbuilld function ubayogikkunnath mongoose documents ine  plain js objectekk  maatan vendi aanu its work with consuming less memmory
+usage
+
+-> req.query  = {ithe oru search polotha thil ezhuthunnath eduth nammak tharunnu}
+
+=> .some {its a higher order function and its check the if at least one element in a array maching in given condition . it take a call back funtion  }
+
+=> find=>{firt query and projection}
+
+=> status ----- in stock or out of stock
+=> display ----- active or block
+=> post offe{ first addyam category check exist of not  {CategoryName:name} }
+=> else{
+
+  const new Offer({
+
+schemas =req.bodys 
+})}
+ save offer
+
+=> cron jobs {cron jobs are time based tasks can be studule to rus with sepeciphic intervel    }
+
+= node-cron {cron job module const cron = require('node-cron');
+
+cron.schedule('* * * * *', () => {
+    console.log('This job runs every minute');
+})}
+
+=> node pdfkit{ it is popular doucument kit in node and const pdfDocument =require('pdgkit')}
+=> .pipe for{sending genarated data to writable stram in this case, a file stream created using
+ fs.createWriteStream } 
+=>end is called to finalize the PDF document.
+=> create() function{for databasil store aavan }
+=> .save() ulla object ine mati save aakan 
+
+
+
+=> user list order details
+= direct user login
+=> toISOString() orderDate kale nammak ee functionality ubayobith nammak to a string in the format 'YYYY-MM-DD' using toISOString() akan
+const dayMonthYear = orderDate.toISOString().split('T')[0]; full return cheyyuunath ozhivaki nammak string divide cheth tharum
+=> orderDate.getFullYear() ithe nammak year mathram return cheyyum and as a four digit number
+ => endDate.setHours(23, 59, 59, 999); { js setHoures method is date object method }
+ 
+
+ 

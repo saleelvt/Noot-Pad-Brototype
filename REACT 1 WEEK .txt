@@ -1,0 +1,114 @@
+REACT 1 WEEK 
+------------
+=> REACT  actually a library not a fram work 
+-> react introduced by facebook 
+=> react have class component and functional component : {class component used from earlyear}
+-> function component aanu main  : 
+HOOKS 
+-----
+incuded in functional component 
+=> data pass cheyyunnath json format 
+=> rendering clint side aanu nadakkunnath 
+=> crome edukka 
+=> pw ,vs ,pllugins ,node npm 
+
+=> react suprate html page vechaanu cheyya 
+=> root.render 2 arguments : 1= which component and which html page that conected 
+ 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+ 1= which component , 2= which html page that conected
+);
+web pack : used to create module bunddler like babel {create app  vilikkumpol ellam koodi varum   }
+=> 1 how to set components and state : click cheyyumbol marunnath 
+-> routing /api web vilikkunnath 
+=> 2 working of the event 
+=> jsx :{javascript xml we can use the xtml and js at a same time }
+ javascript xml
+---------------
+-> bt tag you want close like this <br/>
+-> purath variable aaki ezhuthiyath   nammk vilikkanengil :{2 brase inte ullil idanam + variable name }
+=> oru component ezhuthumbool first letter capital ezhutha 
+=> ivide ninn oru dataye pass cheyyan like props :{properties }
+=> js onclike === jsx ; onClick
+
+
+
+REACT 
+-----
+=> React is a open source library for building user interfaces like used to front end development used with javaScript 
+=> react is component based architecture 
+-> not a framwork 
+-> focus on Ui {user inter faces }
+-> react introduced face book  and maintained 
+-> huge community 
+-> components can be use with any library like angular , vue : that indication reusable code of react 
+-> react is single page application 
+
+
+
+react is declarative 
+--------------------
+=> that indicating if you want a ui then tell react what you want and react and react dom library  will build the actual UI 
+=> react will handle efficiently updating and rendering of the components 
+=> dom updates  are handles gracefully in react 
+=> react is declarative : { developers can give the instraction to react shoul the ui like this } 
+-. dom updation 
+=> imparative paradigm  :{ say for creation }
+=> react native for build the mobail app   
+-> 16.5.2
+
+=> react function vilikkan 
+
+* rfce ,rcce 
+=> oru onclik function  {} object nte ullil enhtengilum kodukkumbol nammal orikkalum function vilikkaruth so that is the main thin 
+* oru onclik function vilikkanulla name matram annu kodukkendathe 
+
+=> oru array destructure cheyyumbol nammak set with diffrent names but oru function pass cheyyumbol nammal kodutha name thanne vilikkanam 
+-> array position based but object loot matumbol name same aavanam ennan machan paranje
+
+* if i write  with arrow function that time you dont need the return with colum only 2 column 
+
+=> props and states
+--------------------
+-> props you want to pass in to a component    &&  -> state is handled inside of taht component 
+-> props handle the outside of the components  &&  -> state pass cheytha data vach work cheyyan inside of a component 
+-> props immutable                                  -> state mutable chage cheyyam 
+
+=> life cycle methods  && depented on useEffect 
+-----------------------------------------------
+=> oru componentil enth maatam varuthaan automatic aayi ulla method 
+
+some case of life cycles method 
+* mounding  :{ adding a new component to our code  } 
+* updating  :{ componentinte ullile value maatanengil updating aaanu  }
+* unmount   :{ remove a component our code
+
+-> react routing 
+----------------
+=> routing is the best way for avoid the rendering 
+-> we can simply change our pages without refresh actually the react work only one htlm page we just change the page components accordingly
+=> controlled : In a controlled component react, state handles all the form data 
+=> uncontrolled : , the HTML form element data is managed by only the DOM
+=> Lazy loading in React allows you to split your code into smaller chunks, loading only the code that is needed for a 
+particular part of your application when it is actually required
+
+=> single page application and multiplage  
+
+=> dom objenct :{head body and div class h1 like this 
+diffing :{component compare cheythe maatunnu 
+-> vercual dom is react doing create a copy of actual do
+
+=> how to create a counter : create a variable and  a button for click and 
+
+  const {title,data}=props
+  return ( <h1>{title } {data}</h1>
+=> functional component take the props ans an object parameteres 
+
+
+
+
+
+
+
+

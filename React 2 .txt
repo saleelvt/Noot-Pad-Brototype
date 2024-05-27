@@ -1,0 +1,217 @@
+React 2 
+-------
+=>useCallback 
+------------
+-> useCalback is used to return Memoize function 
+-> it also useful for preventing function from being recreated on re-rendering {rerender cheyyumbo undakunna function thadayunnu }
+
+=> useMemo
+----------
+-> useMemo hook  use used to apply Memoization in React 
+* Memoization :{memoization is a technique for improving the performance of your code }
+=> user
+=> React.memo
+--------------
+
+-> React inte ullil render controll cheyyunnu 
+->  it is a hight order components ‮
+-> retukrn new component  
+-> 2 argument of this a function  we can do with spefiphic render controll with thi function 
+-> ()=> {return ture or false / true vilichal matam vannale render cheyyu alle ellam cheyyum 
+
+-> shoul compoment update and pure component 
+---------------------------------------------
+-> react.memo() yil first argument matram kodukkunnath === pure component 
+-> 2 argument koduthu ezuthukkath as ===uld component update 
+
+ vs useMemo
+-----------
+-> obj pass cheyyumbol nammal ubayoogikkunnu
+-> useMemo( ()=> , [])
+-> first dom il save cheyth vekkum and deppentency arrayil matam varumboll matrame chyekk cheyth maatukayollu 
+
+useCallback 
+-----------
+-> use callback will controll the render as a function because like useMemo but more efficiant 
+-> 2 argument one fuction for pass and depentency array  
+-> only use for function 
+
+=> createContext, useContext 
+-------------
+-> the useContext hook used to pass data without passing all child we can pass data where ever we want data that only component and \
+   access our data globlay 
+
+
+
+=> conetext API 
+--------------
+
+=> Complex state:{ states as object multiple state having }
+=> useReducer 
+--------------
+-> if you want manage complex state :{like object states and that childre may have another state  } that time we can use the useReducer 
+-> nammude state multiple aayi parann kidakkunnundengil nammak ubayoogikkam {mean the may  will be get the update from child component  }
+-> diffrent between state and reduce the state will update the state directily to that variable 
+-> the redeucer that fuction called the dispach() fuctionn will call the reducer function the returned element what the reducer will update the state 
+-> reducer function should want to write out side of the that funtion :{mean useReducer() must want } 
+-> const [value,dispatch]=useReduce(dispatch fuction ,initial value )
+-> you want to change action with genaral method like add action type  
+-> use with switch case 
+
+
+features of useReduce()
+----------------------
+-> as a state and pass the state to multiple child 
+-> pattern like redux
+-> reduce will first call the dispatch() and the dipatch function pass the state to reducer function
+
+
+
+
+
+=> React.Lazy - code splititing 
+-------------------------------
+-> react.lazy 
+-> suspends is component it is used to react .lazy ubayoogich data fetch chyyumbool nammak user interface il spinner konduvaraan okke ubayoogikkunnu 
+-> 
+
+
+
+=> pure function 
+----------------
+-> reducer functions are should  always be pure funciton
+-> pure function is that will depends only on input areguments
+-> 
+
+
+
+
+
+=> elements
+------------
+-> elements  are creaitng by using   tag from components ,we can create the many element from a component 
+-> that will gone to dom element 
+-> element name is the fucntion name must be start with upper case 
+-> we can use the refference name  
+-> we can pass the element name as a object that time we want to call :{obj.nameoft}
+
+
+how to create a context 
+----------------------
+-> props allathe nammak pass cheyyan nammak oru 
+-> global aaya context object creat cheyyanam 
+-> function call cheyyan unde 
+-> react.creatContext() componentinte purathaan ith vilika 
+-> { 2 ARGUMENTS OF THIS OBJ : 1 = provider 2 = consumer } - this 2 arguments are maine they had more arguments 
+-> React.create context il nammal deafalt value koduthal nammalk childil allathe access cheythal aa value aanu  labhikkukka and eth oaon
+providing 
+---------
+-> if you want pass a data to childs components you can creat a provider between teh mein components provider aanu pinne ellathilkum data pass chyyuka as a prop that time we can simply access the data from parent components 
+
+consuming 
+---------
+-> ee dataye edukkunna or read cheyyunna  process elladthum 
+-> functional componentil nammak ithine edukkan useContext ubayoogikkunnu 
+-> class componentil nammal : consumer method and contextype method will use 
+
+
+
+
+
+=> React.memo depends on
+=> what does useMemo depend on to re-run the callback
+=> React suspense
+=> horizontal scrolbars 
+=> HOC
+-------
+-> higher order components are taking the input as a components 
+
+
+React.memo()
+------------
+-> the react.memo() is a higher order component 
+-> react.memo() hoc  matu componentinte rendering controll cheyyan ubayoogikkunnu 
+-> react.memo yil nammalk 2 props and athil 1 props object aayi pass aakumbol unnessesary rerendering nadakkum becasue 
+
+* 'hello'==='hellow' shari  :{premitve and checking values}
+* {value:'hello'}==={value:'hellow'} reference aanu pass avunnath athkonde ith equal alla 
+ 
+
+
+=> pure components 
+=> when react component re-render 
+=> difference between useMemo and useCallback 
+=> how to update state in useReducer 
+=> synthetic events 
+-------------------
+-> synthetic events are diffrent from native event 
+
+
+
+=> react latest version 
+----------------------
+React 17 had several bug fixes related to the JSX transform, the new low-level caching, and more. React 18 introduces a few new features including a new context API, an experimental Suspense Hook, and an improved server-side rendering memory utilization.
+=> webpack 
+=> bable 
+=> automatic batching 
+=> uselayout 
+------------
+-> use layout a hook used to apply layout in our code the use layout run before use Effect code 
+=> debouncign 
+=> Rest web services
+-----------------
+-> the web services are mnythings rest web services are work with very efficiantly and request will go and respond will come and finish 
+-> connectionless 
+-> server maayi connection illa athaan pratheegatha request varumbo matram poyi eudttuvarum 
+-> method of serverces :{get put pacth ,delete update}
+-> data varuka : json format aavum >
+
+axios and fetch 
+---------------
+-> 
+const arr = Object.entries(obj);
+
+=> therd party router 
+--------------------
+-> react.router routers okke therd party routers aanu 
+-> next folder structure keep cheyyunnund
+-> api routes
+---------------
+-> frond end react code back endil pooyi data eduthu kondu varum aa data eduth varum angane kontaan ullath 
+
+React Router package 
+---------------------
+-> react single page application aayathinal nammalk url vethyasthamaayi labikkilla 
+-> this case some times whey we are use the large application  that time may be we want to share the spheciphic pages that time  want to put the router package to geting url 
+
+=> pr  imitive data type and non primitive data type 
+-------------------------------------------------
+-> string , number , boolian ,null , bigint undefined ,symbol 
+-> object ,array , function and map ,set 
+-> we want to creat a non primitive data type we want to use the primitive data type 
+-> 2 primitive data type store chyyumbol athinte value aanu compair chyyunnath but non aakumbol athinte reference aanu store cheyyunath 
+* mothathil paranjal variable store cheyyunnath like reference vechaan aa reference value maayi match chythirikkunnu 
+  aa value mataan pattunnath mutable {object and array } else immutable {number and string booliane } 
+-> primitive is always immutalbee 
+
+-> diffrent const and immutable 
+------------------------------- 
+-> const :{reference cannot be changed }
+-> immutable : {value cannot be changed }
+ 
+variable mutation 
+-----------------
+-> variable te values matunna parubadi 
+
+=> fire base :{back end as a service } 
+------------------------------------
+-> auth ,store ,db,hosting they are providing 
+-> we need only take and use it 
+-> simplify the back end development 
+-> made by google 
+
+=> a tag and link to diffrents 
+------------------------------
+-> a tag reload aavum but link to reaload aavila 
+
+

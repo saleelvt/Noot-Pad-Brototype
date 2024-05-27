@@ -1,0 +1,47 @@
+Type Scripts journey 
+-------------------
+* js is a weakly/looser  typed language 
+
+=> Type Scripts is a Super set of the java Script 
+-> it will increase our code performance 
+-> it will indicate the error like a div 
+-> this compilation remove the all types 
+
+=> we can install the type script as we want to our project 
+=> and if you want install globally : { npm install typescript -g }
+
+infer types / implicit types 
+----------------------------
+=>  If you are change the type of let value : { let username ='Saleel ' to username=10 } 
+ -> it will indicate error message on your display 
+-> we cannot able to change any data type we are already declared 
+
+* we can do the type script without setting the type 
+
+Defining Types (Explicit Types )
+--------------------------------
+ -> let username : string='Saleel'
+-> let number: number=21
+-> let skills :string[] =['typewriter','logical Operator, 'content creator']
+-> let object : string{name:string ,age:number}
+-> object use cheyyumbol nammak suggestion aayi varum 
+
+interface property 
+------------------
+-> it is used for object details we can set multiple places 
+-> as we want 
+
+* when we are declare a function inside of a object we want to wright like this 
+  { getName : ()=> void  }  void kodukkanan with function name 
+
+* union operator 
+----------------
+-> if you want declare multiple data type like :{let age : string | number} ='forteen '
+
+
+
+
+
+
+
+

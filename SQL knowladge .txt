@@ -1,0 +1,113 @@
+SQL knowladge 
+-------------
+
+=> SQL VS POSTGRESQL
+--------------------
+=> sql structured query language 
+-> sql can access and manipulating database 
+
+ popular      * aduvanced featurs 
+ performence  * open sorce 
+ easy to use  * scalablity 
+=> sql non sql 
+--------------
+-> vertical ,predifined Scheama ,relational data base
+
+
+
+ Sql is the one of the best query language based on relational and the postgresql is the another implementaiton of sql based  so the comparison is more accurately framed as PostgreSQL vs. other database management systems that also implement SQL, such as MySQL or Microsoft SQL Server.
+=> 
+
+=> Basic methods 
+   ------------
+What are data types in PostgreSQL?
+PostgreSQL supports various numeric data types including => smallint, integer, bigint, decimal, numeric, real, double precision, serial, bigserial. It has below data types: Integer types – Whole number data types are smallint, integer and bigint.
+
+=> CREAT DATABASE {name }and :;
+=>  if you want to switch to any database {\c and name }
+=> create table :{ create table {name }} and we want to set the coloums name with a data type and sql cotain so many types of data types 
+=> create a table and colums  {create table {name of the table } and rows (id we want a put a data type  and primary key ,name {that data type like {varchar(50)}} )}
+
+
+
+=> how to enter a data =: insert into {your_table name} (name whatever exist like address) values ('saleel','variyathodi ');
+=> to fint table =: \dt
+=> to fint column read =: \d {your column name}
+
+job title manager enn ullayidath matram salary matum : {  UPDATE employees  SET salary = 55000 WHERE job_title = 'Manager';   }
+=> if you want set specific column each element      : { update class set place = 'valapuram',town='kulathur',address='andi parambil',name='niyas kp' where  id= '34';  }
+=> to print ascenting order                          :{ select * from class order by {your column } }
+=> if you want descenting order                      :{select * from class order by {your column } desc;} 
+=> if you want limit rows from your table            :{select * from class limit 2;}
+=> if you want you skip the rows                     :{ select * from class offset 2;}r
+=> student=# select * from class where name ='Saleel' or address='valapuram';
+=> student=# select * from class where name ='Saleel' and address='variyahodi';
+=> \c table change cheyyan and use:[name of the table }
+=> if you want add a new column :>   alter table add column :{name of the column and data type }
+=> if you want remove only the values from table ;{ truncate table/or truncate only :{name of the table } }
+=> if you want to remove the table :{ drop table friends}
+=> if you want to remove the data base same thing ;{drop database :{name }}
+
+Alter programs
+--------------
+Alter table key used for modify our existing table like colums add edit and drop columns data  such as :
+{
+
+* Adding a new column :{ alter table {name of table  } add column {name and data type } }
+* drop a column       :{alter table {name of the table} drop column {name of you want given }}
+* rename a column     :{alter table {name of the table } rename column {old name } TO {new name }}
+* change the datatype :{ alter table {name of the table } alter column {existing column name } type {new data type }
+* delete row :{ delete from {table name } where {some condition }}
+* delete all rows ;{ delete from :{table name } } , we can use it the method of :{ truncate table {name of table } }
+* delete column :{atler table [name of table ] drop column [name of column ]
+* delete a specific value from column :{ update class set [which you what to null ] where name ='saleel'
+=> select uniq value => { select distinct {your column name } from {your table name } }
+=> reaname data base : ALTER DATABASE oldeanne MODIFY NAME = Example=
+
+=> select speciphic condition :{we can use the where statement }
+=> we can sort the columns like :{select * from class order by {first column ,second column }}
+=> not :{select * from class where not city='valanchry '}
+=> to find a smallest value from a column :{select MIN(argument) from table-name}
+=> we can print the given column :{ select {give name of you what the column } from {table name } whre {speciphic condition }};
+=> you want now count of any thigs:{select count(*) from class where name ='saleel'}
+=> you want now the avarage of any thigs :{select avg(thigs to fing )  from nameoftable }
+=> you want now the sum of any thigs :{select sum(thigs to fing )  from nameoftable }
+
+
+
+
+SQL Like
+---------
+=> first letter start with or  any letter ->condition '[asd]%'
+=> rejex checking like  you want now name start from a :{ select * from class where name like 'a%' }
+=> rejex checking like  you want now name end from a :{ select * from class where name like '%a' }
+=> rejex checking like  you want now checke specific pattern  contain or not :{ select * from class where name like '%a%' }
+=> rejex checking like  you want now checke specific letters start value and end value :{ select * from class where name like 'a%b' }
+
+* we can apply these oposite mthod with:{select * from class where name not like 'a%'}  = imp 
+-> this like we can check the second letter and more whant '_' : select * from class where name like '_a%'
+-> and start with where city like '[a,c,s]%'
+
+=> sql in operation
+-------------------
+=> check 2 condietion in a row :{ select * from customers where country in ('france','norway')}
+=> sql alias =>   oru column vlaue print cheyyumbol nammukk only column name matram mati print aaka :{ select name as place as from class }
+
+
+
+
+
+
+-- Retrieve column names from the "class" table
+SELECT column_name
+FROM information_schema.columns
+WHERE table_name = 'class';
+
+-- After verifying the correct column name, you can proceed with your SELECT statement
+-- For example, if "name_three" is not found, you can choose an existing column
+-- Let's say "name_one" exists, so you can select it like this:
+SELECT name_one FROM class;
+
+
+                                                          
+                                                           

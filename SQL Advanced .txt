@@ -1,0 +1,226 @@
+SQL Advanced 
+------------
+
+=> count of people from each city 
+=> find out emplooyee with highest salary 
+
+
+
+* subquery 
+----------
+-> the subquery is the query within another sql query that will have embedded within the where clause
+-> we can use the subquery without  the where case 
+=> subquerys can be used with the select ,insert ,update ,delete and statements along with the operators like =<<,>, in ,between ,
+some condition must be follow 
+-----------------------------
+
+-> subqueries must be enclosed within parentheses {paenthesesinte ullilayirikkanam vekkendath }
+-> a subqueries can have only one column in the select clause 
+-> An order by command cannot be used in a subquery 
+-> main query and subqury 
+-> first inner query aanu exicute cheyya 
+-> subquery () braisinte ullil parentheses nte ullil aavum undaava 
+-> order by commant cannot be work
+
+
+
+
+
+
+
+
+
+
+* case statement {how to give an increment of 10 k in salary }
+
+=> what is a domain :{domain is a valied value use in our table columns : nammal age declire cheyyunath> }
+
+-> primary key ,unique key ,foreign key 
+---------------------------------------
+
+*  primary key :{
+-----------------
+-> primary key is a field in a table which uniquely identifie each row in a data base 
+-> they  have multiple keys but we want to set preiority key for retrive 
+
+* cnadidate key 
+---------------
+
+-> the remaining keys like adhar number or passport num ,  except for primary key are considered as a candidate key 
+-> we can set the candidate key as a set of keys 
+
+* super key 
+-----------
+-> super key is a super set of a candidate key 
+-> we can take the keys as a sets >
+
+composite key
+------------
+: that consists of multiple columns used to uniquely identify rows 
+: it can not use  identify with single column 
+: the primary key made by with composit key 
+}
+
+
+=> SQL Commants
+ --------------
+also known sublanguage connands 
+
+* DDL :{Data definition language : create ,alter ,truncate }
+
+* DML :{data manipulating language : update ,delete ,insert}
+
+* DQL :{data query language : select }
+
+* DCL :{data control language : grant ,revoke }
+
+* TCL :{transtaion controle language }
+
+* SQL Injection 
+ -------------
+-> sql injection is a code injection technique that can compromisie your database 
+-> sql injection is teh one of the most common web hacking techniques 
+-> it can help writing more readable and more effective and efficient like multiple join and subquerys like that 
+
+
+
+
+
+
+
+* composite key 
+* order of execution 
+* all join methods 
+* Candidate Key 
+* stored procedure  
+
+
+With clause 
+-----------
+=> with clause used to create temporary data in data base ,that is a commen table expretion define the temporary result sets 
+
+=> WITH avg_salary AS (
+    SELECT AVG(salary) AS average_salary
+    FROM employees
+)
+UPDATE employees
+SET salary = salary * 1.1 -- Increase salary by 10%
+FROM avg_salary
+WHERE employees.salary < avg_salary.average_salary;
+student=# with salaryOver100000 as ( select id,sum(salary)  from class group by id   having sum(salary)>100000)  select * from salary
+Over100000;
+
+Having and Where 
+----------------
+=> student=# select name ,avg(salary) from class group by name having avg(salary)>80000;
+-> 
+=> student=# select name ,avg(salary) from class  where  salary > 80000 group by name;
+=> student=# select name ,salary from class where salary > (select avg(salary) from class); : avg itrakku mukalil ulla aale kaanan 
+
+
+
+
+
+
+SQL quiz
+---------
+* With SQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+-> With SQL, how can you delete the records where the "FirstName" is "Peter" in the Persons Table?
+- >The NOT NULL constraint enforces a column to not accept NULL values.
+
+
+
+
+
+
+
+SQL CASE STATEMENTS
+-------------------
+=> THE CASE STATTMENTS we are used to return different values based on those ocnditions : we can use with update ,delete,select etc...
+
+https://chat.openai.com/share/18dee842-a065-4388-be83-b5e125489b58  
+
+
+SQL STORED PROCEDURE 
+--------------------
+=> IF YOU want now save uour query code in your terminal you use it the stored procedure and we can call that code with function over and 0ver 
+
+syntax : CREATE PROCEDURE {name of the procedure } as 
+{
+  CREATE OR REPLACE FUNCTION get_name_address_place()
+  RETURNS SETOF RECORD
+  AS $$
+  BEGIN
+    RETURN QUERY SELECT name, address, place FROM class;
+  END;
+  $$ LANGUAGE plpgsql;
+}
+BEGIN TRANSACTION; -- Start the transaction
+
+    -- Increase sreejith's salary by 10000
+    UPDATE class
+    SET salary = salary + 10000
+    WHERE id = 1;
+last : commit or rollback 
+
+
+Transaction 
+-----------
+
+=> state of transactio 
+---------------------
+-> active state       : acitve state is the first state ,transaction will be exicute from this side 
+-> commit state       : the all operation successfully runned and data saved stage in transaction 
+-> parcially commited : don't haven't save the data's to data base but last proggram is allredy runned 
+-> aborted            : if happend eny of the check fail then data base go the previos consistent and check the consistent database or not 
+                        if still not a consistent state it will move to abort and doing the roll back 
+  * roleback    : is used to brenging to a consistent stage 
+-> faild              : when the the data base recovery systum encounding the  falild time transaction will be  the faild state 
+
+
+
+BEGIN TRANSACTION; -- Start the transaction
+
+    -- Increase sreejith's salary by 10000
+    UPDATE class
+    SET salary = salary + 10000
+    WHERE id = 1;
+last : commit or rollback 
+
+
+CASE statments  
+--------------
+----------------------------------------------------
+SELECT name, address,city,
+       CASE
+           WHEN name = 'sreejith' THEN 'trur'
+           WHEN address = 'manager' THEN 'saleel'
+           ELSE name || ', ' || address || ', ' || city
+       END AS modified_info
+FROM class;
+------------------------------------------------------
+DELETE FROM table_name
+WHERE 
+    CASE 
+        WHEN condition1 THEN 1
+        WHEN condition2 THEN 1
+        ELSE 0
+    END = 1;
+-----------------------------------------------------
+UPDATE class
+SET salary = 
+    CASE
+        WHEN city = 'valapuram' AND salary < 60000 THEN salary * 1.1
+        ELSE salary
+    END
+WHERE city = 'valapuram' AND salary < 60000;
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+

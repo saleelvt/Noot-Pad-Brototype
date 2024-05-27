@@ -1,0 +1,9 @@
+project 8 week 
+---------------
+=> photo file uplode cheyyan   {mongodb connecte cheyyan   }.MongoClient
+=> multer.diskStorage({
+    destination:(req,file,call back function(its cb))})
+   -> multerinn 3 arquments 
+=> upload.single('image') 
+=> < enctype='multipart/form -data'>
+

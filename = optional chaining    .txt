@@ -1,0 +1,68 @@
+=> optional chaining    
+=> hof {edukkunath/retunr }
+=> call back function { pogunnath}
+=> first class function {taht eblity}
+=> primitve and non
+=> genarator funtions{funtion*/paused and resumed}
+=> input output module{fs}
+=> buffer class {its work with binary datas directly}
+=> API {
+web service ===aplication proggraming interpase
+work between browser and server
+
+}
+=> xml formate to json format
+=> web also followed http protocol
+
+
+=> buffer class {it is class provide way to work with binary data directly }
+
+   binary data write cheyyan and read manipulate 
+=> cross platforms (onnil koodutha sthalath ubayogikkam)
+
+
+
+=> iife {immediately invoked function expression after its creation and {creat privat scops and reduce
+ the global scope }}
+
+=> recursive functions{it used for svanthamayi problums solve cheyyunna cheriya cheriya steps vazhi
+*-> it used in algorithms tree structures }
+=> process.nextTick{0 delay}
+=> process object {its is object used for constrol and interacting 
+  allow accesing environmental variable and procces related events respond cheyyan
+
+} cluster module
+ { it is the module for create multiple child process for using maltiple cpu cors  in a silgle mechan}
+transaction +> it is a oru datak kurach set off logical operations nammal kodukkan 
+            => its properties 
+               -> atomicity its a datas nammal kodukkumbol onnellengil full aayi kodukkanam alle kodukkaruth 
+               -> consistency data kodukkunnathinte munneyum prosses kazhinjathin sheeshavum athinte consinstency
+                   chek cheyyum 
+               -> isolation -> oru samayam oru dataye work aavu 
+streams 
+   => readable stream and writeble stream and duplex stream and transporm streams
+jernalig inmongodb 
+  => it is aa featur in db provid avoid crash recover cheyyan and durablity 
+prototype method {oru object te featurs nammukk matoru ovjectn cheerkkunnath }
+spawn and fork ()
+-------------
+its a key featurs of child process fork ubayoobich aan child process create aavunnath 
+ -> node js le code run aavunnalth fork ubayoogich 
+spawn its is external commant varumbol aane nammal ith  ubayogikkunnath 
+
+chind prosses it is the multiple core nammude mechianil ubayoogikka 
+  
+
+array methods 
+-------------
+=> shift and unshift {arr.shift(1),arr.unshift(2,3,4)}
+ -> shift oru valu matrame kalayan patu but unshift onnil kooduthal value kayatam
+
+db.deleteOne({====})  document delete aakan
+
+
+
+
+
+
+

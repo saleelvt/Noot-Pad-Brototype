@@ -1,0 +1,47 @@
+JAVA SCRIPT
+----------
+
+=> js :{js isdynamic type language  we can change that to static : typescript }
+=> jave and c c++ eg of static type language so that we want to put the data type beyond that variable 
+
+=> primitive data type and non primitive 
+----------------------------------------
+=> number,boolian string undefined null  ||  array ,function ,object 
+
+=> .notation and braket notation 
+--------------------------------
+-> we can access from our object like . and []
+-> person.name   and person[name] like wise 
+
+
+event propagation 
+-----------------
+=> event propagation  is a js mechanism 
+ -> they has tow stages : capturing and bubbling 
+bubbling 
+------- 
+-> if you clicked a button that time the parent div also trigger that is 
+-> if you want to prevent the propagation : event.stopPropagation() event is the parameter from addEventListener 
+OOPS 
+----
+
+
+
+
+
+
+ ARRAY METHODS 
+--------------
+
+* FILTER : const filtered item = arrayname.filter((it will take one argument )=> return condietion what you want  )
+-> filter return new array that contain the elements satisfy  that condition 
+
+* Map :  const filtered item = arrayname.Map((it will take one argument )=> return condietion what you want  )
+->  it will return the values like array and single argument and change our data to other values accordingly 
+
+* Find : const filtered item = arrayname.Find((it will take one argument )=> return condietion what you want   )
+-> return the single object from array and accourding the condition satisfy
+-> it will retrun the value as first finted 
+
+
+

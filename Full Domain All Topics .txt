@@ -1,0 +1,373 @@
+Full Domain All Topics 
+----------------------
+
+
+Hash Structures
+---------------
+
+Hash Map 
+Hash Table
+
+Collision Handling
+------------------
+
+Open Addressing :{linear probing ,quadratic probing double hashing}
+
+linear : { oru arrayal next next aayi save cheyyum  }
+quadratic probing : {}
+double hashing : {}
+
+Separate Chaining
+-----------------
+-> 
+
+
+Resize a Hash Table
+Quadratic Probing
+Linear Probing
+Double Hashing
+Load Factor
+
+Trees and Graphs
+----------------
+
+AVL Tree
+Spanning Tree
+Minimum Spanning Tree
+Binary Search Tree
+Red-Black Tree
+B+ Tree
+Segment Tree
+Suffix Tree 
+Prefix Tree 
+Complete Tree
+Full Tree
+Perfect Tree
+Trie
+Graph Representation
+Directed Graph
+Undirected Graph 
+Weighted Graph
+Graph Indexing / 
+Geo Spacial Indexing
+Prim's Algorithm
+Dijkstra's Algorithm
+Bellman-Ford Algorithm
+Topological Sorting
+Acyclic Traverse
+Degree of Graph
+Height of Tree
+Mirror Tree
+Stack Overflow / Underflow
+
+Sorting and Searching
+---------------------
+
+Bubble Sort  
+Insertion Sort
+Selection Sort
+Quick Sort
+Merge Sort
+Linear Search vs Binary Search
+
+Complexity and Optimization
+---------------------------
+
+Big-O Notation
+Time Complexity in Linked List and Array
+Quadratic Time Complexity
+Asymptotic Notation and Graph Equation
+BFS Complexity
+DFS Complexity
+
+Linked Lists
+------------
+
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Circular Doubly Linked List
+Hierarchical Linked List
+
+Stacks and Queues
+-----------------
+
+Stack
+Queue
+Priority Queue
+Enqueue, Dequeue
+Monotonic Stack and Queue
+Call Stack
+Monotonic Stack
+Monotonic Queue
+Application of Stack
+
+Other Data Structures
+---------------------
+
+Heap
+Min-Heap
+Max-Heap
+Heapify Up, Heapify Down
+Priority Key
+Static Array and Dynamic Array
+Jagged Array
+Database and Backend
+
+
+Database Concepts
+-----------------
+
+Transaction
+----------
+-> transaction is set of any logical operation in our data base that ensure the integrity and consistency of our data base 
+* ADID properties are the key feature of the transaction that ensuring the database reliability 
+Atomicity :  every operation should run however else it will be aborted 
+Durability : 
+Consistency : 
+Isolated :  
+
+Isolation Levels
+----------------
+
+READ UNCOMMITTED , READ COMMITTED , REPEATABLE READ , and SERIALIZABLE .
+
+
+=> clustered index and clustered collection 
+-------------------------------------------
+
+=> clustered collection which mean the collection with clustered index 
+-> clustered index is the index we can store our data as a sorted order or dictionary order that is more better than non clustered index 
+-> fetching elements very quickly  
+
+Covered Query : 
+--------------
+=> covered query is the part of the query 
+=> Covered queries are a powerful tool for optimizing database performance
+=> performance , Reduced load ,efficiency 
+=>  only the fields involved in the specific query need to be covered by an index.:{what you search that should wrapped with index }
+
+TTL (Time-to-Live)
+------------------
+-> sigle field index 
+-> we can put the index with time whenever the time reached the indexed field will go 
+
+GridFS
+------
+-> grid fs Is a specification that used to describe to split the file chunks file during storing and reassemble them when that retrieval 
+
+ 
+Sharding
+--------
+Database sharding is the process of storing a large database across multiple machines. A single machine, or database server, can store and process only a limited amount of data.
+sharding is a process in our data base that distributing data across multiple machines 
+-> sharding storing horizontally scale storage and workloads in the face of increased demand 
+-> splitting data across multiple machines 
+
+=> the replication 
+------------------
+-> the replication means the the primary server node copies data onto secondary server node 
+-> this can help increase data backup and availability 
+-> this process conducting the replication if the primary server fails then  the replication will be set the next primary server from the best secondary
+   server 
+* ranged sharding and hashed sharding 
+
+
+
+
+Shard Key
+Primary Replica Set
+BSON Document / BSON Advantages
+
+Journaling
+----------
+-> if you are close the mongodb server and again you login that time the journaling will take the previous datas in your code 
+-> if crash your storage the journaling trigger the last consistent state after a crash and restored tha lsast consistent checkpoint during recovery 
+
+Database Profiler
+----------------
+-> the profiler collecting the query execution times 
+-> you can find the how many queries are took the more than given time or milli second and timing for all queries 
+-> The profiler collects data for all operations.
+
+Partition Tolerance
+Capped Collection
+----------------
+=> the capped collection is the type of collection with a fixed size and  once the size reached the oldest elements are automatically 
+removed and to make space to new documents 
+=> you cannot delete the single document from capped collection that automatically removed 
+
+Horizontal Scaling
+Namespace
+$ne, $nin
+$elemMatch
+$merge
+$out
+$facet
+
+
+
+Server and API
+---------------
+
+express.urlencoded
+app.all
+app.locals
+setHeader
+writeHead
+OPTIONS Method
+Rate Limiting
+Content Security Policy
+HTTP Compression
+Proxy Object
+Reverse Proxying
+Structure of HTTP Response
+JWT Claims
+CookieParser
+Same-Origin Policy (SOP)
+Preflight Request
+LocalStorage vs Browser Cache
+Statelessness of HTTP
+Programming and Development
+
+JavaScript and Node.js
+----------------------
+
+
+bson and json 
+-------------
+
+=> the json text based data that is interchanged and 
+-> better to debug and use 
+-> including the data types string boolien and array object 
+-> used to create web api and file 
+
+=> bson 
+--------
+-> bson is the machine language more efficient to store and read
+->  including more datatypes data objectid not readable 
+-> used to for store the mongodb and network datas 
+-> we can pass the complex data 
+
+
+=> encode and decode 
+--------------------
+-> original stirng to binary string : encode 
+-> opposite : decode 
+
+
+
+Factory Function
+Map and flatMap
+Evnt Bubbling / Event Propagatione
+Promise.race
+Throttling
+Nullish Coalescing Operator (??)
+Bitwise Operator
+Null Pointer Exception
+Method Chaining
+Callback Queue
+setTimeout
+Promisify
+Proxy Traps
+Polyfills
+Variable Shadowing
+Deep Freeze
+Same-Origin Policy (SOP)
+execFile
+Clustering
+EventEmitter
+
+
+
+React and Frontend
+------------------
+
+Render Props
+Redux Persistence
+Immutable Data in Redux
+Time Travel in Redux
+Saga
+Controlled Components
+Uncontrolled Components
+Error Boundary
+Shadow DOM
+Lazy Loading in Reacttree shaking reactDead Code Elimination
+
+Pure Component
+React.memo
+forwardRef
+Native Eventsmvcn
+Synthetic Events
+Event Pooling
+
+Three type routing 
+-----------------
+BrowserRouter :{we are commonly implementing the rote form }
+MemoryRouter  :{ is manages routing internally routing react application without manipulating the browser url  }
+Hash Routing  :{ It is used to implementing the client-side routing in react  <Hash router> should not sent the url to server  }
+
+Dynamic Import
+--------------
+Dynamic imports :  in React allow you to dynamically load JavaScript modules at runtime, {when hooks auto call }
+
+Tree Shaking : tree shaking it is the js term to eliminate the unused code from the 
+                application's bundle = small more efficient faster Dead Code Elimination
+
+Miscellaneous Concepts
+----------------------
+
+ 1: Concurrency and Threads
+
+Thread Pool : 
+------------
+=> it is the collection of worker threads : threads the a
+
+Spawn() vs Fork() vs Exec()
+Concurrency
+Content Negotiation
+Dispatch
+Socket
+CSRF
+
+
+Miscellaneous Algorithms and Techniques
+---------------------------------------
+
+Divide and Conquer
+Tarjan’s Algorithm
+Check if a Linked List Forms a Loop
+Find the Degree of a Vertex
+Serialize a Binary Tree
+Write a Function to Check if a String is Palindrome
+Function to Return the Product of Highest Frequency Element and its Frequency from an Array of Numbers
+Remove the Highest Value and Remove it from Object with Destructuring
+Write a Function which will Return the Extra Char
+Implement Queue with Linked List
+Application of Stack
+Weighted Graph
+Advanced Topics
+
+Advanced JavaScript
+-------------------
+
+JIT (Just-In-Time Compilation)
+ECMAScript
+Static Keyword
+Structured Clone
+bind()
+strict mode
+Object.entries
+Labels
+eval()
+
+Additional Topics
+-----------------
+
+CAP Theorem
+API Versioning
+Transpiler
+HTTP Compression
+Content Security Policy
+Dynamic Import
+

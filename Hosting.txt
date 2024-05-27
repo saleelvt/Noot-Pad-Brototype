@@ -1,0 +1,45 @@
+Hosting
+-------
+AWS servises 
+----------
+
+-> Ec2 {elastic cloud computing 
+* we getting a  aws provide a virtual machine like a computer { nammak cpu storage os ellam nammk set cheyyam }
+* S3 Bucket { nammude datas store cheyyan like video and image like any type of data  so we can use the S3 buket {data storage data manage data analays and like that }
+* RDS (Relational Database {we can just impliment other {* my SQL datadabes nammuk aws create cheyth nammak ubayoobikkam }  })
+* Lamda Function{ we can just do the like fecting a code  with lamda function  } 
+
+
+=> Elastic Beanstalk { nammude node js app deploy cheyyan veendi nammukk oru platform tharum  nammak athil matam matram varuthiyal mathi {we can just deploy eith eny programming language}
+
+Ec2 {elastic cloud computing =>nammak cpu storage os ellam nammk set cheyyam 
+ S3 Bucket  =nammude datas store cheyyan 
+(Relational Database
+ Lamda Function
+Nginx
+-----
+=> Nginx is the most power full web server in the world
+=> hight trafic and perfomence and scalabilty
+* A proxy server is a go‑between or intermediary server that forwards requests for content from multiple
+ clients to different servers across the Internet
+
+A firewall is a network security device that monitors incoming and outgoing network traffic and decides 
+whether to allow or block specific traffic based on a defined set of security rules.
+
+hosting 
+-------
+
+after getin key
+
+{sudo apt update
+sudo apt install nginx }
+t2.micro TYPE OF INCTENCE
+
+
+Http and https
+--------------
+https encrypted connection and hide our data 
+TLS {Transport Layer Security {updated version of ssl}}
+ssl {we used for  encrypted data  }
+URL {Universal Resource Locator}
+DNs {domain name system }

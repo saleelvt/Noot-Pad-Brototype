@@ -1,0 +1,140 @@
+Mongodb and Java Script
+-----------------------
+
+
+=> $push               {array}
+=> $pull               {}
+=> $addToSet           { push cheyyan veendum veendum athanne keetilla}
+=> pop                 {name:slaell },{$pop:{name:'saleel' }}} remove first or last elment 
+=> pull                {it remove in a array tha speciphic match feild }
+=> pullAll             {$pullAll:{names:['saleel'niyas']}}
+=> each for use onnil kooduthal values keetan aane {$push;{names;{$each;['saleel''niyas']}}}
+fooddb> db.doc1.updateOne({foodname:'burger'},{$push:{chefname:{$each:['nana','hnan'],$position:1}}})
+=> $position:1 ithe onnamathe position ile value keetivakkum
+=> exist and expr {exist oru document il kodukkunna Field undo enn nokkan / expr compare with same document perticular condetion  }
+=> grid fs {mongo db yile grid file system  valiya valiya binary data store cheyyanun retrive cheyyanum aanu ubayoogikkunnath  }
+=> one chunk data size(255kb)
+=> if you want update a document if it is not found then you can use the upsert option
+
+
+
+=> comparison
+-------------
+
+=> &in: fooddb> db.saleel.find({hobbies:{$in:['coding',"speaking"]}})
+$or: Returns documents where either query matches
+$nor: Returns documents where both queries fail to match
+$not: Returns documents where the query does not match
+
+update operations 
+-----------------
+=> $currentDate:{date:true}
+=> $group :  bookdb> db.doc1.aggregate([{$group:{_id:'$publisher',totalsales:{$sum:'$price'}}}])
+= $addFields: {avgGrade: { $avg: "$grades.score" }} },
+
+=> clustered index and clustered collection 
+-------------------------------------------
+
+=> clustered collection which mean the collection with clustered index 
+-> clustered index is the index we can store our data as a sorted order or dictionary order that is more better than non clustered index 
+-> fetching elements very quickly 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java Script array methods
+-------------------------
+
+=> arr.push            {arrayyil value keetan }
+=> pop remove last element and return that element 
+=> pop and shift return that element 
+=> un shift to push first of array one or more 
+=> concat 
+=> slice cut cheyyan  {arr.slice(1,2)}
+=> splice             {adding ,removing ,replacing }
+=> map/reduce/filter
+=> let add= arr.lenght{}
+=> to string()
+=> split()            {array bikadippikkan  } 
+=> join()             {idayil varan }
+=> arr.length         {not ()}
+=> arr.flat()         {sub array ullathine flat aakum [sort cheyyan nalla suhama
+=> new Set()          {it is a data structure  that represents a collection of uniqe values  }
+=> heap memory        {it is the memory manage cheyyan veendi js nte }
+=> garbage collection {it is builded in js engine its automaticaly understand the uselles memory in js code and retrive that  }
+=> mark and sweep     {its a algorithm of working garbage collection uses  } 
+=> heap Memory        {js ile data structures undakumbol athinte koode athinte memory create aavum athine its manage data structure memory  }
+=> leak memory        {js code memory namakk mannually matan kazhiyilla because nallapole vrithik code ezhuthi memory leak kurakkaan noka kore code nokateh                                               z                        ezhuthiyal memory consumption koodum angane garbage collection koodum  }
+=> getter and setter  {it is controle access to object propertys get retrive cheyyan set change and make }
+=> named exports      {its use for reuseable and organazed and maintanable  code undakan} 
+=> quary selectors    {it is the selecte and manipulate a elements use DOM manipulation like ./#/}
+=> imperative programming  {its programing paradigm oru preticular reethiyloode nammale program konde poga }
+=> promis.all         {oru arry or string edukkunnu prommise fullfilled aayathe matram edukkunnu rejecte aayi kazhinjal appo thanne rejecte adikkum ellam }
+=> Promis.rice        {first kanunna resolve or rejecte eduth  tharum }
+=> promise.any        {its return fulfilled a new promise return cheyyun athava rejecterd aayaal aggregate Error adikum }
+=> ajax               {ajax serverk asyncronous request kodukkanum update cheyyanum part 
+                       -> ithe oru web page full edukkilla kurach vech matam }
+=> decimals number and non decimal nmber 3.14 and 3 
+
+=> String methods 
+-----------------
+-> text.charAt(0) : it will print the character of that position 
+-> text.charCodeAt(0) : print the charCode of the  
+-> text.at(0)  : print also the first position 
+-> slice(0,10) : it is a string method and it will return value ill  0-10 positions 
+-> substring also == slice(0
+=> if you need eny inetex without the loop from the string : text.indexOf('word')
+=> incluede
+=> text.endWith(saleel) 
+=> text.staratWith('hello)
+
+
+functions
+---------
+=> function hoisting : {the function called before they initialized }
+=> self invoke : function call with  ()  / Function expressions will execute automatically if the expression is followed by ().
+=> return argument.length : I will return the number of arguments which given 
+
+
+
+
+js datastructure method 
+-----------------------
+=> new Map(){like  objecte but its key-value pairs oru key vach nammak uniqe aaya thine vilikkam} 
+=> new Set()
+=> has()
+=> delete()
+=> size()
+=> use for of loop and forEach 
+=> super key word{its used for access and invoke the parant properties like                                                      function and constructur to sub classes}
+=> factory functions {its return an objecte or objecte litaral and its easialy maintain with privet variables and clousures and maintain encapsulation }
+=> map and flat map (){ both are used to create manipulate data  like as same but flate map used to }
+
+
+Js json methods 
+---------------
+parse(){json string to js object }
+stringify(){js object to json string }
+
+Java script math methods
+------------------------
+=> Math.round(variable)
+=> Math.floor()
+=> Math.ciel()
+=> Math.sign(){negative or positive}
+=> Math.PI [3.141592843748]
+
+
+

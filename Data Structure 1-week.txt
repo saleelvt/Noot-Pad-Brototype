@@ -1,0 +1,151 @@
+Data Structure
+--------------
+
+=> The data structure is a specialized format for organizing ,retriving , and sorting data 
+=> An algorithm is a procedure used for solving a problem or performing a computation
+=> complexity analysis {when we are running a code 2 separate answes that time which is taking the small storage and small time than anothor solution the checking of things called complexity Analysis
+=> Time Complexity Analysis 
+=> Space Complexity Analysis
+ }
+    
+=> Big O notation { that used for analysing program complexity time and space  }
+=> Memmory alocation {our variable and code datas actual storing our ram  } 
+
+0101{ this code each numbers are one Bit those 8 number called Byte  
+
+1 byte = 8 bits 
+1 kilobyte = 1024byte
+1 megabyte =1024 kilobyte
+1 gigabyte = 1024 megabyte
+1 terabyte = 1024 gigabyte 
+ 
+* => continiouse memmeroy allocation and non continouse { continouseil => array okke / and space illenginl wherever there is space it wil go there
+
+DOM                    => Tree data structure 
+Broser back and foward => Stack data Structure
+Os job scheduling      => Queue data structure 
+
+
+1 loop : leniar 
+2 loop : quadratic 
+3 loop : cubic 
+
+big O notation : worst case complexity 
+omega Notation : best case 
+theta          : average case
+
+Built in data Structre 
+----------------------
+Array ,Object ,Sets,Maps
+
+Custom data structure
+---------------------
+Stacks ,Queues ,circular Queues ,Linked list ,Hash tables ,Trees Graphs 
+
+
+Array Big O Notaion Complexity
+------------------------------
+insert /remove from end => O(1)
+insert / remve from  first => O(n){ be cause that need the reconstructre  } 
+Access -> O(1)
+Search -> O(1)
+push /pop -> O(1)
+
+SET IN JS
+---------
+=> A set is a data structure that can hold a collection of values .The values however must be unique
+=> set can contain mix of diffrent data types 
+=> set is dynamicaly type i dont have declare the size before creating it 
+
+Set VS array
+-----------
+=> set cannot contain duplicat elament  but ararya can 
+=> Searching and deleting an elements faster than array
+
+  const set = new Set([2,3,4,5])
+
+  set.add(1)
+  set.delete(3)
+  console.log(set.has(1));
+
+  for(item of set){
+      console.log(item);
+  }
+
+MAP IN JS
+--------- 
+=> MAP is a an unordered collection of key-value pairs 
+=> both keys and values can be of any data type
+=> that itratable we can add the any of the loop
+
+Linked list in js
+-----------------
+
+=> linked list is coustum data structure and linear data structure that include connected nodes
+=> linked list can easily inserted or removed without realloacation or reorganization 
+=> that connected oneto anothor nodes and 
+=> usage of limked list alll applications of both stackes and queues are applications of linked lists eg={Image viewer }\
+=> array is back to back memmory space  Linked list non-conguse memmory space aan
+=> doublyLinked list insertion and remove contain constant time complexity but that taking more space 
+
+SLL single linked list
+----------------------
+=> less memmory allocation than Dll
+=> insertion deletion O(n)
+=>  
+
+=> the Main usage of Linked list 
+   -----------------------------
+inserthion => that can add an element at beginning or end at a given index in the list 
+Deletion   => That can delete an item given its index or value
+Search     => to find an element given its value 
+
+=> prepend method complexity is = constant 
+=> Search in data Structure 
+_--------------------------
+
+binary Search and Linear Search
+
+Recurtion 
+---------
+
+recurtion is a way to solve our problum which  is a funtion cal itself in a order form on indirect way or directe way 
+=> desadvantage of recursion and linked list 
+*  recursion need big space for recursive function as compare than iterative programm 
+* rcursion function generally slowed than non-recursive function 
+
+disadvantage of linked list 
+--------------------------
+* complex implementation 
+* using more memmory 
+* slower accessiblity 
+
+
+
+what is the factorial ?
+factorial is take a number a  
+
+=> Application using with DSI
+   
+  * Google Map{working with graph }
+  * Google Drive { tree data Structure}
+  * Stack { we can go our previous page  {stack contain last in first out}} linked list
+  * Queue {using in whatsap for seeing first msg at first {Queue contain first in first out method }} linked list 
+  => stack and queue are created with linked list 
+
+
+=> what is the Trilateration method 
+  * that is the method of searching our proper location with any 3 near location rounde crashing point
+
+
+
+binary search should sorted array 
+-=-----------------------------
+
+
+
+
+
+
+
+

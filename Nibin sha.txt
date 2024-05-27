@@ -1,0 +1,48 @@
+Nibin sha
+---------
+
+=> indexing types $out 
+=> $redat  ,jounaling 
+=> namespace ,TTL(indexing )
+=> elemMatch
+
+
+
+
+Thread,duplex 
+spawn(),vs fork() vs exec()
+CSRF ,preflight request 
+
+OPTION METHOD 
+dispatch 
+socket 
+concurrency 
+cookieparser 
+set vs WeakSet 
+bind()
+truthy falsy 
+JIT 
+
+object sorting 
+array sum in an object 
+
+
+redux-saga ,flux 
+throttling ,debouncing 
+synthetic events 
+native events 
+error boundary 
+Shadow DOM 
+store action reducer 
+transpiler 
+
+
+ tree vs trie  complexity and deffrence 
+bfs ,dfs time com
+time complexity of recuresive methodes
+sorting methods 
+
+merge sort 
+bst 
+
+

@@ -1,0 +1,22 @@
+Next.js journey
+---------------
+=> next js is the react fram work for building web applications
+=> should learn react basics 
+
+SSR [Server Side Rendering] and SSG [Static Site Generation]
+Next.js has built-in support for server-side rendering, making it easy to create SSR-enabled React applications without the need for manual setup and configuration.
+
+Featurs of the next.js
+---------------------
+-> it uses provides additional features that enable you to build production redy application 
+-> These features include routing , optimized rendering , data fetching ,bunding ,compiling and more 
+=> next js will be make fully-featured application 
+
+->Routing  :{ you want to  install 3 party package and configer it for need to create route for every time and add code in react app but
+  the next js offer the file based routing and simplifying the task of creating the route an eliminating the need of the  3 party routing     }
+-> api routies 
+-> rendering :{ the next.js allow to  render server side and user side rendering } * best is server side rendering is very efficiant
+-> Data featching ; {next js support the simplified data fetching and with async await suppot in react component }
+-> styling ; tail wind ,css 
+-> optimazation 
+-> dev and prod build system 

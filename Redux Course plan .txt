@@ -1,0 +1,121 @@
+Redux Course plan 
+-----------------
+
+=> Redux - Redux Core 
+-----------------------
+-> redux library 
+
+=> react-redux 
+=> Redux Toolkit 
+
+-> Asynchronous State Update 
+
+-> redux core providing a store :{create store }
+-> it return a object with 3 arguments 
+  * state
+  * Dispatch() 
+  * Subscribe { it will return a function like what we want ,we can pass the function like use effect    }
+-> store.subscribe(()=>{log(store.getState )})
+-> getState() : {latest state labhikkan }
+-> maatam varuthan -> dispatch 
+-> reducer vilikkum 
+-> state and action :{logic we can also wright here }
+-> 
+
+
+React Redux 
+------------
+-> normal redux  : getState() =>this function will return latest state 
+-> react redux   : we want to use the useSelector Hook for get latest state 
+
+-> normal redux : we want to call dispatch function 
+-> react redux : we have  useDispatch hook for getting action of that function 
+
+
+combined reduce()
+------------------
+-> if we are using the reducer function you will get the so many reducer function cases that time you can use the combine Reducers()
+- > it is a utility for splitting the code as a function 
+-> combine Reducer is a function that will return a function  
+-> so we can pass our function with split so that will more applicable 
+  
+Action Creator 
+-------------
+-> its we can pass our dispatch function as a function make a function in store and export that and import as we want we can call the inside of dispatch function 
+
+
+immer
+-----
+-> it is library 
+-> actually its using inside of redux tool kit  
+-> we can use the immer instead of the shallow copy so we can import and the immer to producer and we can pass our function inside of producer function and the first argument draft we can set our state as we want 
+
+Deep copy and Shallow copy 
+-------------------------
+-> shallow copy example of spread operator 
+-> shallow copy is doesn't coping full object 
+-> which object you are copying that only copied that will not affect child object 
+-> child object reference will not change 
+-> that code rather than complex but it preventing unnecessary object coping so its better than deep copy 
+
+-> deep copy will create a new object whenever we add new nested object  with new reference it will affect all object and it will affect the performance wise more complex 
+-> but we can change like mutable as we want 
+-> but its coping all object  
+-> not efficient 
+-> react.memo() wont work
+
+Thunk and Logger 
+----------------
+=> Thunk and Logger is middleware in redux  it is a 3party middleware 
+-> middle ware we can set before the dispatch  action as we want we will get some extray control on redux project 
+
+Logger
+------
+-> Logger middleware is whenever happened the action in redux that time logger middleware will print the 
+* action , State after action ,state Before Action 
+
+Thunk
+-----
+=> thunk middle ware used to or helps to  Asynchronous action 
+
+
+
+
+Redux Tool kit 
+--------------
+=> redux tool kit is the store action ellam matuka redux il matram storil matam varuthuka 
+
+* what will change using tool kit 
+---------------------------------
+-> create store 
+-> create reducer 
+-> Write action 
+
+-> we can write our store actions like function instead of switch case 
+-> auto creation of function 
+-> immer library ubayoogich nammak action nammak mutable aayi kodukkam obj.ennparanj nammk ezhutham 
+
+=> redux             toolkit 
+-----------------------------
+* store            * store folder like 
+* type action      * slice   : for import create slice 
+
+=> createSlice 3 arguments  ({
+-> name:which name you thing
+-> initial state ; which you want 
+-> reducers: {
+
+}
+})
+
+
+how to set in our local storage 
+-----------------------------
+-> first we want set item 
+-> so after your assigning pay load 
+-> localStorage.setItem('key',JsonStringfy(state.formName))
+
+-> then you want getitem form your inisial state =:{ formName: json.parse(getItem("key":)) || null }
+
+
+

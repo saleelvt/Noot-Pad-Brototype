@@ -1,0 +1,271 @@
+Node js
+-------
+backend ile js ezhuthaan 
+
+=> node js it is runs single threaded :{handle a task simultaneously} and non-bloking : donot affect another execution of a code 
+   and that only will deligated  asynchronous programming 
+=> node.js can create dynamic page content ,node can create open wright delete on server ,can collect form data , database management 
+
+modules 
+-------
+=> if you want to work with the file uploads you can use the formdable module 
+=> ejs : for embedded js templates for rendering the html pages 
+=> 
+
+
+
+ => post man toop{its used for known abuot api functionality / http methods aaya get put post ithallam work aavunnunde enn ariyan aan}
+
+
+=> {js functions anothor style founded}=> 
+    function add(){
+       return 10
+        }
+    console.log(add())
+
+=> global object and window object {js writing frondend code use with window // node can write backend in vs use with global   }
+
+=> log(__dirname),(__filename)
+=> const path=require('path')
+console.log(path.basename(__dirname)); evide yaano ullath ath matram
+=> path.join {2 paths join cheyyikkan veendi}
+=> event Emitter {enthengilum oru event pass cheyyanum and ath thirige vilikkanum ubayoogikkunu}
+=> its let Event Emiter =require('events')
+           emitter=EventEmitter()
+           emitter.on /emit
+=> npm outdate/update/@latest
+=> thread in node js { node is a single threaded event driven non blocking runtime for java script }
+=> web Api { its a set of API provivided by web browsers that enable web applications to interact with browser enbironment and the internet 
+   -> oree samayam kore karyangal cheyyunna aale 
+=> libuv  {it is the library and cross platform asyncrounous I/O library   used by node js  event loop and provide non-blocking i/o operations
+=> cross plateforms [ libuv designed to be a cross-platform}
+
+=> module wrapper function 
+--------------------------
+-> we are wrapping a function with exports ,require ,modlule,__filename,__dirname) 
+
+=> os module 
+-------------
+-> this module provide number of operating system-related utility methods and properties 
+-> this module used to get system's cpu ,memory ,network interfaces ,and more 
+
+
+=> event Module 
+---------------
+-> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

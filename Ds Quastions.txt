@@ -1,0 +1,16 @@
+=> what  is Ds?
+=> what is the Algorithom
+=> linear ds and non-linearDs
+=> static vs dynamic memory allocation 
+=> memory leak
+=> disadvantages of recursion 
+=> time complexity of array operation 
+=> application of doubly LL
+=> what is array
+=> array VS linked list 
+=> Linked list Operations 
+=> array operations
+=> what is the Recurtion 
+=> jagged array
+=> stack overflow
+=> time complexity

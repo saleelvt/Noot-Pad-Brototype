@@ -1,0 +1,106 @@
+React week back .1
+------------------
+=> Custom hooks 
+---------------
+-> if you want create a hooks like "useState and useEffect " that time you can create a custom hook as your logic 
+* the custom hooks name should start with name 'use'
+* that can statful or stateless 
+* reuse and logic  accrose multiple components 
+
+=> Fragment 
+-----------
+   <React.Fragment> this comant we can use with our react code for avoid unuseless div 
+
+=> key 
+------
+* keys in react a prop is a special attribute that hepls react identify which items have changed or added or removed from the list components 
+-> identifying Elemtns :{identifying each element in list }
+-> Efficient Updates  :{when a array of elements chenges react need the why to find very efficiently for update the ui without rerendering }
+
+=> diffrence between props and state 
+->  create two component and paass data from child to parent 
+-> prevent duplicate task in todo app 
+
+=> react features 
+------------------
+-> declarative , components based ,virtual dom ,jsx ,performance ,simplcity 
+
+   Dom                                                virtual dom 
+-------------------------------------------------------------------
+* tree representation of dom            | * light weight copy of orginal dom 
+* re-renders all entire dom             | * only re-render hte chenged elements 
+* update are heavy weight               | * updated are lightweight 
+* performence low ux qality is low      | * performance is fast and ux is optiixed 
+* not efficient work                    | * highly efficient 
+
+=> props & state 
+=> components 
+=> Event Handiling 
+=> Dynamic Rendering 
+=> SPA vs MPA 
+=> life cycel mothods 
+=> Hooks 
+=> Router 
+=> Refs 
+=> Portals 
+=> Error Boundary 
+=> Higher Order Components [HOD]
+--------------------------------
+
+=> Render Props 
+=> Context Api 
+=> HTTP 
+=> importance of using key prop while mapping an array 
+=> state vs variable
+=> controlled vs uncontrolled elements 
+
+=> axios
+---------
+rest endpoints
+api 
+ :{axios is a powerfull library used for send asynchronous  http rquest to rest endpoints working with ajax as simplifyed  this library very useful to perform }
+
+=> fetch mehod 
+--------------
+-> fetch method retern the string we want to convert json 
+
+=> pure component :{ components render output is purely baseed on that state and props cannot change and update  }
+=> regular componets : {components re-render whenever it receives new props or its state changes }
+
+=> state full and stateless component 
+=> strict mode 
+=> map object 
+=> filter method 
+=> reduce 
+=> react strict mode 
+=> reconcilation 
+=> synthetic events 
+=> explore class components & life cycle methods 
+=> uses of useEffect without dependency array 
+
+
+=> ajax :{asynchoronus javaScript And xml }
+-------------------------------------------
+=> ajax is one of the best asynchronous opration 
+page reload cheyyathe nammaka page load cheyya 
+-> preventing the backpost method
+=> autoSggetion tharum 
+Dynamic Content Loading: ...
+Form Submission and Validation: ...
+Autocomplete and Suggestions: ...
+Infinite Scrolling: ...
+Updating User Interfaces: ...
+Single Page Applications (SPAs): ...
+Live Search and Filtering: ...
+Interactive Maps:
+
+
+
+
+
+
+
+
+
+
+

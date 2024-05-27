@@ -1,0 +1,114 @@
+git 
+----
+
+Reformat your project source code into the official coding standard of your domain.
+Complete the basic tutorial of GIT.
+Publish your first project on GIT.
+Finish nginx tutorial and host your first project on AWS, Azure, GCP cloud platform or any other linux server instance (Load balancing, caching, Reverse proxy).
+Learn about Alternatives of nginx.
+HTTP protocols.
+
+Learn the difference between HTTP and HTTPs.
+
+{git hub and git lab and bitbucket }
+
+git and github { git is the sistum tool that went to  
+
+-> git is a tool in our computer 
+-> git network illathe work cheyam 
+-> we can use the git all programs like python , mern ,flutter { its not spesiphic language }
+-> the git analysing all movement of our in code line by line
+
+
+=> The benefits of git 
+   -------------------
+=> Tracing history 
+   ---------------
+->   we can just use track our history use with only silgle c0mant 
+=> Collabration 
+   ------------
+-> assum we are using a big project so we can use the multiple integration in our code 
+-> mixing any code with our code
+
+=> Backup 
+  -------
+
+ -> we can just use the back up in our code from anywhere
+=> multiple features
+  ------------------
+-> we can use with the any project with same time 
+=> Tracking Status 
+   ---------------
+-> if i forgot where i reach my previos project i can use this comant {git stash}
+-> if crashed your project when you doing code that time it moere usage will be you can jut user ths 
+
+=> we can use with open sorce project 
+=> the actual  or commen name of this  is the git and mercurial { vertion controller system }
+=> we want to lead our project so you just learn git 
+
+=> 2 Types of Vertion Controlle Systum 
+  ------------------------------------
+1 - CVCS (Centralized VCS )
+2 - DVCS (Distributed VCS )                                 
+ 
+=> we can use the git 2 ways 
+---------------------------
+-> git init and git clone {git init aavumbol first project cheyyumbol cheyyanam / git clone ningal cheytha project eduth cheyyan ubayoogokkunnu}
+
+=> * ls -> for showing files 
+
+=> git init 
+=> git status 
+=> git commit
+=> git branch -m {eny name } nammal oru puthiya repository start cheythe nammal gitil push cheyyumbol defalt branch mati nammak ishtamullath vach tharum 
+=> git remote rename origin newname{ first cheyyumbo anmmale name origin enn ullath mati ishtamullath aka veedin aan }
+
+=> cach /staging / Indexing 
+-> add cheytha onnine matrame nammak commit adikkan patu
+-> git tree is  add-status- chach/id -header/master
+=> head means that represending which you existing now your code 
+=> git log {etra commit undenn kaanan veendi yan ubhayoogikkunnath}
+=> git log 
+=> git log --all/dott .  {ellam}
+
+=> git config systetil oru vattam cheytha mathi
+
+=> BRANCHING
+   --------
+=> we just do create a new branch 
+-> git branch {name of the branch}
+=> eath branchil aano nilkunnath avide matraman change undakunnath
+
+=> Merge 
+   -----
+ when we do  merging head aakiyath vachan cheyya 
+-> and NAMMAl just labal matunnu
+=> git merge {which is that name }=> it fast forward merge aan
+-> git branch {ithe cheythal nammak nilavil nilkunna branch kittum
+-> git diff{2 file diffrence manassilasan puthi yath vannath kanan patum}
+-> git stash { this we can just go to our previous  commit cheythat aan patullu}
+-> recursive merge and fast forward merge  {onn labal matunu mateeth 2 ennavum koodi veere oru   }
+
+=> conflit {ore filelil kore developers work cheyyumbol merge cheyyumbol eath edukanam eath ozhivakanam enn nokunnath}
+=> we can just add that name from one name to anothor name 
+
+
+
+Git Hub 
+-------
+
+we can just create a repositary in our Git Hub and create a name take  link with https
+=> and just create in your  terminal and git remote add {file name} and that link https://....
+
+=> git remote add {name of that filenam} {linke}
+*  git remote
+*  git remote -v {path kanikkan}
+* git clone {nammal edutha link copy cheyya}
+
+* => git fetch {the commant retrieves the latest changes from a remote repository}
+* => git merge : After fetching the changes, you typically want to integrate them into your local working branch.
+* => The git pull command is used to fetch and download content from a remote repository and immediately update 
+     the local repository to match that content
+* =>  A firewall is a network security device and  controls incoming and outgoing network traffic based on predetermined security rules
+  ->  The three main types of firewalls (packet-filtering, stateful inspection, and proxy)
+

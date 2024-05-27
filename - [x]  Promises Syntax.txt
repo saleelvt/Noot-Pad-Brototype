@@ -1,0 +1,517 @@
+- [x]  Promises Syntax
+- [x]  Callbacks
+   
+- [x]  Currying
+       
+- [x]  Type Casting
+ 
+         it is the method of data type convertion thse are =
+* string convertions
+* number convertions
+* bolian convertions
+* explicit type casting = *functions vazhi developers matam varuthunnath 
+                        *string and number operations nadathunnu
+                        *manual
+                        # parsint and float 
+- [x] implicit  Type Coercion
+
+         js automatic aayi chyyunna thaan ith 
+      * the explicit and implicit also equal
+      * 
+      
+- [x]  Collections
+
+      *db.doc
+      *mongodb documents save cheyyunna places
+- [x]  forEach
+- [x]  Extends 
+       
+      * parent classil ninn subclasses or child class edukkan vendi
+      * its oops inheritence concepts
+      * its a key word  
+- [x]  Prototype Chaining
+
+      * 
+- [x]  Optional Chaining
+      
+      * embedded objecte ile  vilikkan ubayogikunnu
+      * address.?city = ithe undengil edukkum allengil null or undifined print cheyyum
+      * its mongodb term
+- [x]  Asynchronous Tasks
+- [x]  async-await Syntax
+
+- [x]  Call Apply Bind
+- [x]  Pure Functions
+
+       *it is kodukkunna input and out put same aavum
+       * pure function allathathum unde
+
+- [x]  setInterval
+- [x]  event leserners
+
+       * our event nadakkumbo athine kurich details save aaki vekkan bayogikkunnu
+       ?- why remove the event lestener in code 
+             = because event lesteners are need hevy memmory space 
+
+- [x]  Ajax
+
+- [x]  Hoisting
+- [x]  Accessing a class/id using javascript
+       * class =.
+       * id   =#
+- [x]  Closure Example
+       
+      * 
+
+
+- [x]  set 
+      
+      * is not  return duplicate array
+- [x]  slice
+- [ ]  Regular Expression
+
+- [x]  Finally  
+  
+- [x]  use strict 
+       * this is the on strict mood for finding any errors in code 
+       * syntaxes correct allengil code run avilla
+- [x]  TDZ
+- [x]  Application & Drawbacks of Closure
+- [x]  Higher Order Function
+- [x]  Arrow Function
+- [x]  Map vs forEach
+- [x]  Object Methods
+
+- [x]  Justify Content
+- [x]  Form Validation
+- [x]  Let vs Var
+- [x]  Breadcrumbs
+      * nammal eath page ile aano aa page ethiya ruote mugalil kaanikkum athine
+      * hoem/page/user
+
+- [x]  e.preventDefault()
+      * is preventing default behaviour of node js
+      * 
+- [x]  What is Node
+      * that is js runtime enviroment 
+      * its run js code to mechiean code
+      * node js used for server side devolepment process
+   =>  NPM 
+      * nod package manager is the one of the best package manager of node js
+      * devolopers can easly install and use 
+
+
+- [x]  Why is Map is Used
+
+- [x]  Syntax of Filter and Reduce
+     var found= arr.filter//((item)=>{
+      return item.name  
+            }) log(found)                         
+- [ ]  Abstraction and Polymorphism
+   this is consepts of basic oops 
+   * abstraction hepls in creating high level view of a system
+   * it can unterstant esier and work  
+- [ ]  Class Programs
+- [ ]  Data Programs
+- [x]  Objects in js
+   => object literal
+   => accessing object properties
+   => accessing object properties
+   => accessing and modifying properties
+   => nested object 
+
+- [x]  Core Modules in Node js
+     =>http
+     => file system module {fs moudle}
+       * its can files read and write ,and manipulate files
+     =>path
+       * utilities of directory paths 
+     => events
+       * this module are used for create costum events and its handle
+       * event Emitter class 
+     => stream 
+       * it is crucial part of node js use read and writ immediatly with node 
+       ::server oru valiaya datas  cheriya cheriya chunk datas aaki user kk kodukkunnath 
+
+     => buffer 
+       * buffer module used for handling binary datas in node js
+       * its allow to create binary data and manipulate directly
+     => child_process
+       * this module enable you to create and interact with child processes 
+       * external comands and parallel asts
+     => os
+       * its provide information about operating system on which node 
+       * cpu architecture and memory and net work interfaces okke nammuk access cheyyan kazhiyum 
+     => util
+       * various functions nammude codeil simple aayi commen tasks aayi use cheyyan kazhiyum
+     =>querystring
+        * The querystring module helps you parse and stringify URL query strings.   
+        * parse and stringify URL query strings.
+     =>  crypto
+        * Provides cryptographic functionality including encryption,decryption and hashing
+     => url
+        * kodutha url maayi equal aaya web lote namme konde pogum
+
+-[x]streams
+     * asynchronous typil oru countinues form il datas handle and reading writing to a continuous flowyil its more efficiesnt  
+     * it usefull for dealing large data and networkcommunication 
+     * it using data flow 
+     * it a way to efficiently handle data 
+     * oru real time il oru large data handle cheyyan ubyoogikkunnu
+      # {readable streams and writable streams}
+
+- [x] cross platforms 
+      * it is write one run on multiple platforms
+      * if you wanna make android /ios app insetead of making 2 diffrent apps make one in react naitve and you can run almost same code on both the platforms  
+      * it use create cross-platforms
+
+- [x]  Types of Middlewares
+     * application middle wair 
+     * error handle middle wair 
+     * third party middle wair
+     * costom middle wair
+     * build in middle wair
+
+- [x]  CORS
+       # cross orgin resource sharing 
+       * it  is security feature in web browser 
+- [x]  app.set()
+
+- [x]  Methods of Promises
+- [x]  Params vs Query
+       * rout parameters kittan veendi ubayoogikkum
+       * query strings values kittan ubayoobikkunu
+
+- [x]  Dom manipulation
+
+- [x]  Query selector and Query Selector all
+- [ ]  How to add class and how to remove class
+
+- [x]  Iterate Array
+       * its use like oops and while use every using some
+ [x]  Array methods
+       * Vconcat()
+
+opyWithin()
+every()
+filter()
+flat()
+flatMap()
+forEach()
+indexOf()
+
+- [x]  for in vs for of
+- [x]  working of callbacks
+- [x]  callback vs promises
+- [x]  Array of objects
+- [x]  Instanceof
+- [x]  DOCTYPE
+- [x]  Heading Tag
+- [x]  anchor tag target
+- [x]  href=’#’
+- [x]  cursor : pointer
+- [x]  form attributes
+- [x]  template literals
+- [x]  trim function
+- [x]  scope
+- [x]  Promise all,allsettle,race,any
+- [x]  Event deligation
+- [x]  DOM
+- [x]  BOM
+- [x]  mouse hover
+- [x]  inline elements
+- [x]  dl tag
+- [x]  vmin
+- [x]  linear gradient
+- [x]  pseudo class
+- [x]  css flex
+- [x]  naming
+- [x]  class and object
+- [x]  z-index
+- [x]  Pseudo class and Pseudo elements
+- [x]  css box model
+- [x]  css selectors
+- [x]  i frames
+- [x]  validation
+- [x]  meta tag
+- [x]  what is the purpose of the alt
+- [x]  attributes on images
+- [x]  ul
+- [x]  difference between section and div
+- [x]  addEventlistner
+- [x]  innerhtml
+- [x]  Clear form
+- [x]  OFFSET
+- [x]  Jquery
+- [x]  Grid System
+- [x]  synchronous and single thread
+
+
+- [x]  applications and drawbacks of closure
+
+
+- [x]  shallow copy and deep copy
+      object elements orginal addressil store cheyth vekkum
+     deep=> its elements um and athin veere oru addresum veere vere store cheyth vekkum
+
+- [x]  constructor
+- [x]  bitwise operator
+- [x]  anonymus functions
+- [x]  IIFE
+- [x]  recursive functions
+- [x]  void return type
+- [x]  splice
+- [x]  sup()
+- [x]  slice
+- [ ]  regular expression
+- [x]  array empty
+- [x]  array copy
+- [x]  Primitive and non-primitive data types
+      * reference data types or composite data types => matoru name
+      => primitive is the fundemental data type in js
+       * its alredy seted like ind,float, char,//
+      => its allow multiple data  primitive{array,object}
+       * colloction with[array,stiring,listslike that]
+       
+- [x]  object methods(keys,values,assign)
+- [x]  cancel setinterval
+- [x]  local storage vs session storage
+
+- [x]  Promise api
+- [x]  maxAge and Expires
+- [x]  req.query and req.body
+
+
+
+- [x]  res.sent vs res.write
+- [x]  Node concurrency
+- [x]  createCollection name argument
+- [ ]  fetch using $in - multiple values
+- [x]  renaming collection
+- [x]  renaming fields
+- [x]  sort by multiple conditions
+- [x]  updating(also by conditions)
+- [x]  increment values
+- [x]  deleting by id
+- [x]  $exists
+- [x]  backup and restore a db
+- [x]  removing a field from collection
+- [x]  droping database\
+            
+- [x]  js is dynamically  typed language
+- [x]  view engine
+       * it is the basic component of js web development 
+       * it is a fram work in js
+       * clint leek responce kodukkunnnathin munne html dynamic aakunnu
+       *  Express.js to generate dynamic HTML pages on the server-side
+    => ejs 
+       * it is a simple and widely used template engine in js 
+       * it allow to re dierect embeded js code in to html template
+    => pug
+       Pug 
+         * is a template engine that uses a more concise and indentation-based syntax.
+         * It compiles to HTML and allows for the creation of dynamic templates.
+         * Example usage in an Express.js application:
+       
+        
+- [x]  validation message in login page
+
+- [x]  where the cookies is stored
+       * basically its stored in own computers 
+       * but actualy its stored in server
+
+- [x]  node and js
+- [ ]  $regex,case sensitive
+       * its find letters started in capital or small 
+- [x]  $rename
+- [x]  $expr
+
+- [x]  recursion
+
+
+
+
+- [x]  REPL
+- [x]  URI
+      * uri is a identifie chyyunnu like name or both and place 
+      * this is also like as url 
+-[x] 
+- [x]  cURL
+- [x]  types of streams
+- [x]  replica set
+- [x]  types of indexing
+- [x]  CAP theorum
+- [ ]  Journeling
+- [x]  flex
+- [x]  media query
+- [x]  throw statement
+
+- [x]  bitwise operator
+- [x]  callback hell
+
+- [x]  json vs urlencoded
+      * true aakunnu 
+      * body parse
+
+- [x]  ejs vs hbs
+
+- [x]  jwt tocken
+      * it is a security tocken in node 
+      * 
+
+- [x]  cron job
+- [x]  child process
+       * it is a module 
+       * it allow to spawn and communicate oter external processes or run other js files as child processes
+       
+- [x]  spawn and fork
+       * Here are the key features and functions of the child_process module:
+       * spawn () function is used to start new process asynchronously  
+       * that return a child process
+       * fork(): The fork function is specifically designed for running Node.js scripts as child processes. 
+       It creates a new Node.js process and allows communication between the parent and child processes using inter-process communication (IPC).
+- [x]  capped collection
+      * db.createCollection('one',{capped:true,size:100000,max;2})
+
+- [x]  single purpose aggr
+      * group 
+      * sort
+      * filter
+
+
+
+- [x]  call by name and call by reference
+- [x]  event bubbling and capturing
+
+
+
+
+
+     * The fetch() function returns a Promise that resolves to the Response to that request, whether it's successful or not.
+
+- [x] npm init
+      *package.joson file accesse cheyyan 
+      * dependencies correct save cheyth vekkan 
+      * oru projectil ith must aane
+-[x] upper-case modules
+      * it use to convert string small letters to capital
+      * it is a module
+-[x] .env
+       
+     * it is environmentel storage system
+     * nammude prorts athil aane poyi irikka athilek nammal access cheyth vekkanam
+-[x] bcrypt
+    
+     *  this is the package for password  securely marachuvekkan 
+-[x] express 
+     * express is the frame work of the node js 
+-[x] node mone
+     * node mone is the development utility that automatically restart your node js applicatio 
+-[x] hbs 
+     * is a temblate engin 
+     * handlebar also similar to ejs
+     * it use contaning html to dynamic page
+-[x] ODM
+     * is object data modeling librariy for mongodb 
+     * its node js ile mongodb work 
+     
+ 
+
+-[x] js 
+     * js is a dynamic type lanugage because that don't need a variable type 
+     * variable can chang
+       * Scope and Closures:
+
+ JavaScript has lexical scoping, and closures are an important concept. Closures allow functions to "remember" their surrounding scope, which is useful for creating private variables and maintaining state.
+       * strict mode
+ package.json
+       * used for halndle metadata and project dependencies
+       * metadata is the packaje.json project including name version descriptio atuthor license 
+
+        * "dependencies" lists the production dependencies (Express and body-parser).
+        * "devDependencies" lists development dependencies (nodemon and mocha).
+-[x]  views 
+        * its is used for fi
+-[x]   forEach
+        * same as for loop 
+        * arr.forEach((item)=>{ 
+           log(item.name //or item)
+            }) 
+-[x]  find and filter
+      * is also not equal 
+      * find first kaanunna element or object print cheyyum but filter athumaayi yoogikunna ella elementsum print aakum   
+var found = arr.find((item)={
+ return item.mark<84
+} log(found)
+      * finlter and find always return a array 
+      * if is a emty equal that return a emty array
+      * have both functions index route got it 
+     * we can use indexes for filter
+-[x] map 
+     * map nammal return aayi kodukkunna item ellam eduth adinte oru copy array print cheyyum
+
+-[x] reduce
+     * resuce return cheyyunnath item nn parayunna object il eetavum last vann nikkunna element matram aanu print aavuka
+     * resuce te call back ile 2 argument function ude=> total and item
+      var found =arr.reduce((total,item)=>{
+             return  item.name
+          },0)  log found
+
+-[x] scopes
+     * oru variable or value evideyaan work cheyyandath enn thirumanikkunnathan 
+     * global scop = global aayi cheyyam ella sthalathum access labhikum
+     * local scop  = oru perticular sthalath mathram ollu // like function ollu scope
+     * block scop = oru block te ullil 
+
+-[x] object orient programs (oops)
+     => class
+        * its a bird 
+        * some birds parote and crow 
+        take bird {
+                   name 
+                   color 
+                   eyes
+                        }its data members 
+                   fliying 
+                   driking
+                        }its  members functions
+     => object 
+        * it is a instance of a class // ushaharanam
+        * bird -> like crow 
+-[x]  Abstraction
+     * athyavashyam aayittullath kanich bakiyullath hide cheyyunnu
+     * switch on aakumbo off akumbo
+     * dieirct access undavilla 
+     * its a security level
+-[x] encapsulation
+     * datamembers and member functions ellam orumich aayi oru cpsule pole aakunnu
+ -[x] inheritance
+     * its is classes make from another classes 
+     * oru parent class inte svabavam parent classes loot varunnu
+     onnil nill vere vere undakunnu
+     * chilath matram
+ -[x] polymorphism
+     * its a like key 
+     * we can use with key moretan thigs
+     *  like funtions over load and ride
+     * its a existing morethan one program
+ -[x] node mone 
+     => node mode is automatic aayi server run cheyyunnu
+     and like that 
+-[x] body parse
+     => return  values// posted datas in  jsone formate
+-[x] uuid module
+     => uuid module in express 
+     => its gives a uniq identifir/id   for owr web application 
+
+ -[x] app.set() 
+     => its for create middle ware in owr proggram 
+     => like ejs( <%...%> ) pug,  hantle ( {{...}} ) bar like that 
+     => app.set('view engine ' 'ejs')
+ 
+ -[x] first class function
+     => oru function matoru funtion argument aayi pass cheyyunnathum 
+     => 
+
+ -[x] curry function 
++>  it is a oru valiya function mulitle fuctions aaki small aaki matum ithe ne yaaan curying enn oparayunnath     

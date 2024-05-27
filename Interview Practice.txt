@@ -1,0 +1,20 @@
+Interview Practice
+------------------
+
+Self Introduction 
+----------------
+=> be prepared , should be not scripted its very importent our interview 
+=> Smile and expressive and energy positveness 
+=> show project and skills and strength and hard skills 
+=> we want to counclud by showing intrest about the company positivity 
+
+
+
+PROJECT EXPLENATION 
+-------------------
+-> STORY :{WHY YOU choose this project }
+-> stack :{what are the things you used in this project }
+-> why   :{reason }
+-> featurns : {cart and payment integration and whish list offere multiple ordre }
+-> challenges : {logical , deep learning ,debugg with code }
+-> future     ;{what you lookin after 1 year and 5 year }

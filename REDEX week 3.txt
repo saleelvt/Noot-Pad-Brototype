@@ -1,0 +1,32 @@
+REDEX week 3
+-----------
+
+ 
+
+ 1. Create a web application
+
+-	Redux for global state management 
+-	JWT authentication and authorization
+-	Use preferred Database
+
+
+2. User side
+-----------
+
+Login/Register
+Home page (navigation to user profile)
+      c.   User Profile page (must have file upload option for profile image)
+Admin side
+---------
+Login
+Should be able to view and perform search on user data 
+Should be able to create, delete and edit user data
+
+
+
+React Redux tool kit 
+--------------------
+=> react tool kit is a abstract datatype so we want to use that for reduce our complexity 
+-> tool kit is a function like it will provide so many operations 
+
+=> 

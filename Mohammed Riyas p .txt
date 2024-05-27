@@ -1,0 +1,39 @@
+
+Factory function
+Map and flatMap
+Hash map / Hashmap
+Event bubbling / Event Propagation
+Proxy object
+Promise.race
+Throttling
+Transaction
+Pagination
+App.all / app.all
+maxAge and expires / maxAge vs Expires
+Clusters and workers / Cluster and Worker
+Views
+Merge
+Render props / Render Props
+Redux persistence / Persistence in redux
+Immutable data in redux
+Time travel in redux
+Saga
+Stack underflow / stack under flow
+AVL tree
+Spanning tree
+Minimum spanning tree
+Graph indexing / Geo Spacial Indexing
+BFS complexity / BFS Complexity
+DFS complexity / DFS Complexity
+Literals
+Bitwise operator
+Nullish coalescing operator (??)
+$ne $nin
+Horizontal scaling
+Capped Collection
+Partition Tolerance
+Lazy loading in react
+Hierarchical LL
+Perfect tree
+Complete tree
+Full treeinner the browser node outer connection the browser like we want pass data to out side of the browser : db 

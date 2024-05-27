@@ -1,0 +1,120 @@
+  Redux Topics 
+------------
+
+react is the library for creating building interfaces  redux is js library for managing state in a predictable way in js application 
+
+=> Redux
+---------
+-> redux is a state management js library in react {optional package   }
+-> Redux is a State Mangement : Redux is a Global State management  
+-> Redux tool kit is the Abstaraction of Redux 
+-> Renderukal controll cheyyunnu and we can add new component Easy to add new components 
+-> we can update state Asynchronously 
+-> state asynchronously update chetyan nammal Thunk  add on ubayoogikkam ,we are updating state immutable 
+-> we changing our state like immutable like use with spread operater and add new elements 
+
+
+Redux is a state container : {redux store the state of your application }
+
+=> Store ,
+=> Provider,
+=> Reducer ,
+=> Actions 
+
+=> useSelector()
+=> useDispatch()
+
+
+
+
+=> Thunk
+---------
+-> thunk allow to update state Asynchronously 
+-> asynchronously call our dispatch function 
+
+=> immer 
+---------
+-> immer is the redux package used to declire our state mutable state update 
+
+=> React redux 
+--------------
+-> is a package for connect react ui and redux nammak bind cheyyan pattum 
+-
+=> Axios
+=> Debouncing & Throttling
+--------------------------
+-> these are a useful  technique used to apply as we want 
+-> make optimize the performance 
+-> improve user experience 
+-> limit the rate of function execution 
+{ both are using feature full application but throttling work with a certaing evenet  mateeth after events  } 
+
+
+=> Polyfills
+------------
+-> it Is a code that provide function to add features like promise fetch to our older browssers that do not support it 
+
+=> Prop Drilling 
+-----------------
+-> it is a operation of reducx if you want to pass a data to nested components redux will create a global storage for store our states 
+then it will pass as we want .. and you can also pass nested components like a props 
+
+=> lifecyclemethods class and functional component 
+--------------------------------------------------
+-> the class component lifecycle methods are componetDidUpdate() and componentDidMount() for perform actions at specific point in component
+-> the functional component have lifecycle methods like Mounting ,Updating, Unmounting  
+
+=> Webpack
+=> Localization
+=> Publishing npm package
+=> Strict mode
+=> Concurrent Mode
+=> Custom Hooks vs Function
+=> Prototypes
+=> Custom higher order compoennts=
+=> Axios interceptors
+=> Axios cancelToken
+=> Webpack
+=> Localization
+=> Publish npm Package
+=> React strict mode
+=> React concurrent mode
+=> core principles of Redux
+=> mapStateToProps() vs mapDispatchToProps()
+--------------------------------------------
+
+  state labikkuvaan nammal connect() nte 1 argument aayi mapStateToProps( return = 1 argument redux full state of redux ) : its a function 
+  connect inte 2 argument : mapDispatchToProps : ith like Mateen but state alla pass akkunna we can pass our dispatch and reduce the dispathch function form code 
+
+
+-> if you want a data or store in your component we can use the context 
+-> but if you are working with class component  you can use the Context.Consumer that you want to put parent component which you want pass data to child 
+-> functional componentil aanenegil we can use the hooks for wrap provider like useSelecter and usedispatch 
+-> but if you are working in a class component you need to use the higher order component is  connent() method for consume dispatch and store   
+=> pure components
+=> lifecycle methods using useEffect
+=> lifecycle method rdux  
+-> Profiler
+-----------
+-> React js Profiler Is a tool for profiling the react components we can measure how many times the react application or our components rendered it will   identify the cost of the application and which is the most rendered components 
+
+Does React render on props change?
+-----------------------------------
+Summary: A prop change does not re-render a component if the prop is stored as a local variable.
+ It only re-renders when the prop is stored as a state variable.
+
+-> RenderProps
+--------------
+-> 
+-> class component data data receiving and passing 
+
+-> persistence 
+--------------
+-> persistence is the ability of the storing and retrieve of yours application's state across page reload and rerenders even user close the browser 
+-> it is important thing in react without state persisting data would be delete 
+
+=> Featres of DRF
+-> Promise 
+-> redux thunk 
+-> 
+
