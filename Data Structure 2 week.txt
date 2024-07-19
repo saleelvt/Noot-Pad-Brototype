@@ -41,7 +41,7 @@ Queue DataStructure
 
 The queue data Structur is a sequential collection of elemnts that follows the principle of First in First out 
 the first element inserted into the queue is first element to be removed 
-=> queue is an abstract data type 
+=> queue is an abstract data type  
 => queue support two main operations 
   * Enqueue ,Which adds an element to the rear/tail of the collection 
   * Dequeue ,which remeoves remove an element from the front/head of the collection 

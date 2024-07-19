@@ -16,18 +16,20 @@ incuded in functional component
 => root.render 2 arguments : 1= which component and which html page that conected 
  
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
- 1= which component , 2= which html page that conected
+ 1= which component , 2= which html page that connected 
 );
 web pack : used to create module bunddler like babel {create app  vilikkumpol ellam koodi varum   }
 => 1 how to set components and state : click cheyyumbol marunnath 
 -> routing /api web vilikkunnath 
-=> 2 working of the event 
-=> jsx :{javascript xml we can use the xtml and js at a same time }
- javascript xml
+=> 2 working of the event  
+=> jsx :{javascript xml we can use the xtml  and js at a same time }
+
+ JavaScript xml
 ---------------
 -> bt tag you want close like this <br/>
--> purath variable aaki ezhuthiyath   nammk vilikkanengil :{2 brase inte ullil idanam + variable name }
+-> purath variable aaki ezhuthiyath   nammk vilikkanengil :{2 braes inte ullil idanam + variable name }
 => oru component ezhuthumbool first letter capital ezhutha 
 => ivide ninn oru dataye pass cheyyan like props :{properties }
 => js onclike === jsx ; onClick
@@ -79,10 +81,14 @@ react is declarative
 -----------------------------------------------
 => oru componentil enth maatam varuthaan automatic aayi ulla method 
 
+
 some case of life cycles method 
 * mounding  :{ adding a new component to our code  } 
 * updating  :{ componentinte ullile value maatanengil updating aaanu  }
 * unmount   :{ remove a component our code
+
+
+
 
 -> react routing 
 ----------------

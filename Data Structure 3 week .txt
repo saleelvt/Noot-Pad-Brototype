@@ -11,13 +11,14 @@ Tree Data Structure
 * A tree is a hierarchical data structure that consists of nodes connected by edges 
 
 => Thinge are watch out when you having a Teree
- * don't do connect the leaf node to root node 
+ * don't do connect the leaf node to root node  
  * don't do create the node with 2 parents 
  * don't have a tree without a connection 
+
 => siblings node the node with same parents
 
 => tree data structure traversing methods or typedfghjk
-  -> In order { 1,2,3} first left and root and right
+  -> In order { 1,2,3} first left and root and right        
   -> pre order {2,1,3} first root ,left,right
   -> post order {1,3,2} first left ,right ,root
 
@@ -26,7 +27,6 @@ Tree Data Structure
 
 => Binary Tree & Ternary Tree & K-Array
    ------------------------------------
-
  * Parent Node with 2 child nodes also called Binary tree 
  * parent Node with more than 2 nodes also called ternary tree
  ->{its also known as K-Arrays } include full tree 
@@ -69,7 +69,8 @@ unbalenced tree : space complexity : O(n)
  -> TRIES 
 ----------
 
--> first node will be # 
+-> first node will be #  
+
 * The trie is the storing the string in a tree that is the method of tries 
 
 => the complexity of that word with each word O(l*n)same with time and space
@@ -86,7 +87,7 @@ unbalenced tree : space complexity : O(n)
 => suffix is started from end => like faiz={faiz,aiz,iz,z }
 => preffix is started from first => like faiz{faiz,fai,fa,f}
 => child etra varumenn parayan patilla so we wand to ensuer the nodes is the parent element 
-=> and we want to create a hashtable for solve this
+=> and we want to create a hashtable for solve this 
  
 
 
@@ -164,16 +165,17 @@ Graph Data Structure
 => tree are the speciphic type of graph data strucutre
 => ciyclic graph and non ciyclic graph 
 => disconected graph =>{oru connection illatha graph aanu empded graph }
+
 graph are to type {
 
 -> directed and undirected 
 --------------------------
 * A graph in which the edges have a direction that is the directed graph 
 * A greph in which the edges have two direction that is the undircted geraph  so we can traverce a->b->c and c->b->a 
-
 }
+
  => graphile node kalke nammal parayuka vertex ennanu
-=> connection ulla thine edge enn parayum 
+=> connection ulla thine edge enn parayum  
 => vertices is the a graph without edges 
 
 => multiple edges {it will has multiple edges but not cycle and not full filled }

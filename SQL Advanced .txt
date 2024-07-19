@@ -27,10 +27,6 @@ some condition must be follow
 
 
 
-
-
-
-
 * case statement {how to give an increment of 10 k in salary }
 
 => what is a domain :{domain is a valied value use in our table columns : nammal age declire cheyyunath> }

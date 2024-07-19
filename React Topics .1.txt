@@ -4,6 +4,7 @@
 => DOM concepts in js 
 => Diffrence btw actual dom and virtual dom 
 => Diffrence btw single page and multi page application 
+
 => CSR vs SSR 
 --------------
 => clint side rendering : {  when we are loading any page in react  the clint side rendering first a plan index will load after the datas like js things working  } 

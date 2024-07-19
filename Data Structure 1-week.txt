@@ -86,7 +86,7 @@ Linked list in js
 => that connected oneto anothor nodes and 
 => usage of limked list alll applications of both stackes and queues are applications of linked lists eg={Image viewer }\
 => array is back to back memmory space  Linked list non-conguse memmory space aan
-=> doublyLinked list insertion and remove contain constant time complexity but that taking more space 
+=> doublyLinked list  insertion and remove contain constant time complexity but that taking more space 
 
 SLL single linked list
 ----------------------

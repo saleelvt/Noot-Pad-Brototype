@@ -43,7 +43,8 @@ Day 2 - 6/3/2024
 * Normalization 
 ---------------
 
--> normalization is the process for reduce the redunducy data from our data base with it make more flexible and consist and more efficiantly working with data base so the normalaization process will be more protuctive our data base 
+-> normalization is the process for reduce the redunducy data from our data base with it make more flexible and consist and more
+ efficiantly working with data base so the normalaization process will be more protuctive our data base 
 -> is the process of minimizing redundancy from a relaiton or set of relations 
 
 -> normalaization have 5 levels :{ helps to eliminatie duplicap data and simplify queries }
@@ -78,7 +79,6 @@ scalar functions are used in sql like {ucase/uppercase,lcase/lower case, mid(),l
 
 * Constrains
 ------------
-
 => it used to specify roles in data base 
 => the constraints are the set of rules of for increasing our data base reliability ensur the data base accuracy and 
    if occure the violation in between data rule and action that will be aborted 

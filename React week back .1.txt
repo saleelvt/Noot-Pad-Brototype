@@ -33,6 +33,8 @@ React week back .1
 * performence low ux qality is low      | * performance is fast and ux is optiixed 
 * not efficient work                    | * highly efficient 
 
+
+
 => props & state 
 => components 
 => Event Handiling 
@@ -44,6 +46,7 @@ React week back .1
 => Refs 
 => Portals 
 => Error Boundary 
+
 => Higher Order Components [HOD]
 --------------------------------
 

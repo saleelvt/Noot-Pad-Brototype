@@ -1,64 +1,79 @@
 Full Domain All Topics 
 ----------------------
 
-
 Hash Structures
 ---------------
 
 Hash Map 
 Hash Table
 
+heap 
+----
+
+-> with gape in array that's not a complete bainary tree 
+-> heap only work with complete bainary tree 
+-> height of a complete bainary tree O(logn)
+-> heap sort complexity : O(nlog(n))
+-> heapify : O(n)
+-> inserton and deletion : log n 
+-> the heap is the best data structure for implementing the priority Queue 
+
 Collision Handling
 ------------------
+Open Addressing : open aayi athil thane save cheyya  :{linear probing:{saving the  I +1 yil save cheyyum } ,quadratic probing :{ i+1 +2 oru particular intex distexil }  double hashing : {its a secondary hash I yil colletion undaayaal veedum hash cheyyum pinne ok }}
 
-Open Addressing :{linear probing ,quadratic probing double hashing}
-
-linear : { oru arrayal next next aayi save cheyyum  }
-quadratic probing : {}
-double hashing : {}
 
 Separate Chaining
 -----------------
 -> 
-
-
-Resize a Hash Table
+Resize a Hash Table : {}
+------------------
+-> 
 Quadratic Probing
 Linear Probing
 Double Hashing
-Load Factor
+Load Factor  : 50 array : used / array size 
 
 Trees and Graphs
 ----------------
 
-AVL Tree
 Spanning Tree
+-> 
 Minimum Spanning Tree
 Binary Search Tree
 Red-Black Tree
-B+ Tree
-Segment Tree
-Suffix Tree 
+B+ Tree : kind of self balanced tree 
+Segment Tree : 
+
+Suffix Tree : 
 Prefix Tree 
-Complete Tree
-Full Tree
-Perfect Tree
+
 Trie
 Graph Representation
+
 Directed Graph
 Undirected Graph 
+
 Weighted Graph
-Graph Indexing / 
-Geo Spacial Indexing
-Prim's Algorithm
-Dijkstra's Algorithm
-Bellman-Ford Algorithm
-Topological Sorting
-Acyclic Traverse
-Degree of Graph
-Height of Tree
+
+
+Graph Indexing / : path indexing , gio special indexing and vertex indexing and label 
+
+Geo Spacial Indexing ;to improve the performance the query of graph 
+
+Prim's Algorithm :  greedy algorithm  used to find the minimum spanning /graph tree of a undirected and wighted graph   lowest kaanan 
+
+Dijkstra's Algorithm : shortest cost of the cover all the vertices  in non negative weighted graph  
+
+Bellman-Ford Algorithm : shortest path to all other vertex and path taking the -ve
+Floyd warshall algorithm :  
+Topological Sorting  : 
+Acyclic Traverse :
+Degree of Graph  ; total nods connected 
+Height of Tree   : node : 0 and other connected nodes counts 
 Mirror Tree
-Stack Overflow / Underflow
+Stack Overflow / Underflow : after push full 
+
 
 Sorting and Searching
 ---------------------
@@ -76,14 +91,20 @@ Complexity and Optimization
 Big-O Notation
 Time Complexity in Linked List and Array
 Quadratic Time Complexity
-Asymptotic Notation and Graph Equation
+Asymptotic Notation 
+-------------------
+-> its essentially describes the running time of the algorithm 
+
+and Graph Equation
 BFS Complexity
 DFS Complexity
 
+
 Linked Lists
 ------------
-
-Singly Linked List
+Singly Linked List : 
+-> stack and queue the application of linked list 
+-> image viewer 
 Doubly Linked List
 Circular Linked List
 Circular Doubly Linked List
@@ -106,7 +127,7 @@ Other Data Structures
 ---------------------
 
 Heap
-Min-Heap
+Min-Heap-
 Max-Heap
 Heapify Up, Heapify Down
 Priority Key
@@ -115,21 +136,27 @@ Jagged Array
 Database and Backend
 
 
+
+
+
+
 Database Concepts
 -----------------
+
+
 
 Transaction
 ----------
 -> transaction is set of any logical operation in our data base that ensure the integrity and consistency of our data base 
 * ADID properties are the key feature of the transaction that ensuring the database reliability 
-Atomicity :  every operation should run however else it will be aborted 
-Durability : 
-Consistency : 
-Isolated :  
 
+Atomicity :  every operation should run however else it will be aborted 
+Durability : durability ensure the consistency and it will record the last commit transaction stage for reliability
+Consistency : we need to process one consistent data base to another data base so its ensure whether database consist when  before transaction and after the                      
+              transaction 
+Isolated  :  its mean every transaction will be independent it will not affect another transaction 
 Isolation Levels
 ----------------
-
 READ UNCOMMITTED , READ COMMITTED , REPEATABLE READ , and SERIALIZABLE .
 
 
@@ -143,25 +170,30 @@ READ UNCOMMITTED , READ COMMITTED , REPEATABLE READ , and SERIALIZABLE .
 Covered Query : 
 --------------
 => covered query is the part of the query 
-=> Covered queries are a powerful tool for optimizing database performance
+=> Covered queries are a powerful tool for optimizing database performance  
 => performance , Reduced load ,efficiency 
 =>  only the fields involved in the specific query need to be covered by an index.:{what you search that should wrapped with index }
+
 
 TTL (Time-to-Live)
 ------------------
 -> sigle field index 
 -> we can put the index with time whenever the time reached the indexed field will go 
 
+
 GridFS
 ------
+
 -> grid fs Is a specification that used to describe to split the file chunks file during storing and reassemble them when that retrieval 
 
  
 Sharding
 --------
-Database sharding is the process of storing a large database across multiple machines. A single machine, or database server, can store and process only a limited amount of data.
+
+Database  sharding is the process of distribute the  a large database datas  across multiple machines. A single machine, or database server, can distribute and process only a limited amount of data.
+
 sharding is a process in our data base that distributing data across multiple machines 
--> sharding storing horizontally scale storage and workloads in the face of increased demand 
+-> sharding distributing horizontally scale storage and workloads in the face of increased demand 
 -> splitting data across multiple machines 
 
 => the replication 
@@ -170,19 +202,18 @@ sharding is a process in our data base that distributing data across multiple ma
 -> this can help increase data backup and availability 
 -> this process conducting the replication if the primary server fails then  the replication will be set the next primary server from the best secondary
    server 
-* ranged sharding and hashed sharding 
-
-
-
+* ranged shading and hashed shading 
 
 Shard Key
 Primary Replica Set
 BSON Document / BSON Advantages
+ 
 
-Journaling
-----------
+ Journaling
+---------- 
 -> if you are close the mongodb server and again you login that time the journaling will take the previous datas in your code 
 -> if crash your storage the journaling trigger the last consistent state after a crash and restored tha lsast consistent checkpoint during recovery 
+
 
 Database Profiler
 ----------------
@@ -206,23 +237,36 @@ $out
 $facet
 
 
+=> metadata : is the data informing about another data 
+
+
+
+
 
 Server and API
 ---------------
 
-express.urlencoded
-app.all
-app.locals
-setHeader
-writeHead
-OPTIONS Method
-Rate Limiting
-Content Security Policy
-HTTP Compression
-Proxy Object
-Reverse Proxying
+express.urlencoded :{ it is a build in middleware function in express parse he incoming body requests  }
+app.all    :   we don't need the get put post 
+app.locals : its a object we can store our project datas wherever as we want 
+setHeader  : its a method allow you to set header like response 
+writeHead  : ,,,,,
+OPTIONS Method  : its used for preflight request  describe the communication options for a resource often for cors preflight requests 
+-> it will rduce the security issues 
+Rate Limiting : controle the the amount of the incoming request to server within a specific time frame 
+               
+Content Security Policy : it is a policy for the helps prevent variety of attacks such as cross-site scripting  :xss inchection 
+                          this are allowing to what page is allow to reloaded 
+helmet : it helps to protect Node express apps from common security issues like xss jacking attacks 
+HTTP Compression: it is a technique used to reduce the size of the http responses 
+
+Proxy Object : variety js costumised object used to logging validation security 
+
 Structure of HTTP Response
 JWT Claims
+----------
+claims are a information about that subject 
+
 CookieParser
 Same-Origin Policy (SOP)
 Preflight Request
@@ -230,9 +274,36 @@ LocalStorage vs Browser Cache
 Statelessness of HTTP
 Programming and Development
 
+
+
+
+
+
+
+
+
+
+
+
+
 JavaScript and Node.js
 ----------------------
 
+libuv
+-----
+-> it used to execute the asynchronous task in node js 
+
+v8 engine 
+---------
+-> v8 open source js engine developed by google for chrome 
+-> spider monky js -> mozilla Firefox
+
+
+Modules 
+------
+->local : {we are create and exported modules }
+-> build in module : the node provided modules 
+-> third party : other developers created module we can use that in our code as we want 
 
 bson and json 
 -------------
@@ -247,7 +318,8 @@ bson and json
 -> bson is the machine language more efficient to store and read
 ->  including more datatypes data objectid not readable 
 -> used to for store the mongodb and network datas 
--> we can pass the complex data 
+-> we can pass the complex data  
+
 
 
 => encode and decode 
@@ -255,81 +327,183 @@ bson and json
 -> original stirng to binary string : encode 
 -> opposite : decode 
 
-
+IIFE === module wrapper function 
+----
+-> creating a new scope and execute the code immediately this can reduce the polluting the global scope with variables and encapsulated our code 
+-> iife have 5 parameter like global looking variables  : __dirname,__filename,exports,module,require
 
 Factory Function
-Map and flatMap
+
+Map and flatMap : values flat aaaki return cheyyum and very eawsy 
+
 Evnt Bubbling / Event Propagatione
 Promise.race
 Throttling
 Nullish Coalescing Operator (??)
-Bitwise Operator
+Bitwise Operator : & ==  and  OR ==|, ^ == xor 
 Null Pointer Exception
+
+
 Method Chaining
 Callback Queue
 setTimeout
 Promisify
-Proxy Traps
-Polyfills
-Variable Shadowing
+
+Proxy object : its a  customized object nammak undaakam 
+Proxy Traps : proxy object vach nammak variety consummized programs cheyyan anane cheyyunna oru function aaanu    nammak security and maintanblity and functionality ellam iprove cheyyam =
+Polyfills: it s is a pease co a code used to compactable with all browser even older browse we can run our code in any browser 
+
+Variable Shadowing 
 Deep Freeze
+
 Same-Origin Policy (SOP)
+-----------------------
+-> if you are working without sop  could easily steal cookies ,session tokens 
+-> sop is a mechanism  preventing the data accessing and sensitive information from other sites 
 execFile
 Clustering
-EventEmitter
+
+cors
+----
+cross-origin resource sharing : its a policy for protect our web app  it implemented by browser 
+-> it is a critical security feature for prevent the unnecessary website requests 
+-> your server accessible to specific clients while protecting it from unwanted or potentially harmful requests.
+
+
+
+
+
+
+
 
 
 
 React and Frontend
 ------------------
 
-Render Props
-Redux Persistence
+=> portals 
+----------
+-> react protals Is the powerfull tool feature in react that allow you to render the component out side of the current react tree hierarchy 
+
+=> contextApi vs Redux 
+-----------------------
+-> create context 
+
+=> bundlers
+------------
+-> example : webpackfd
+
+=> Depp copy vs shallow copy 
+=> closure : its a function the variable can access from parent function 
+=> jwt Authentication 
+=> asymptotic notations : algorithm running time describes 
+=> memory leak : heal cheyyatha memory cursing for memory leak 
+=> Recursion disadvantages  : complexity and more memory usage 
+=> curring : we can split a function argument like multiple functional arguments 
+
+Render Props : it is the process of passing the function through props 
+Redux Persistence : every 
+ 
+=> throttling
+-------------
+-> it is a tequeniqe used to if any operation 
+
 Immutable Data in Redux
-Time Travel in Redux
-Saga
-Controlled Components
-Uncontrolled Components
-Error Boundary
+=> immer : is a library used to immutable state management react reduces less code 
+
+
+shallow and deep cody 
+---------------------
+
+-> shallow copy ; immutable coding : spread operator and slice    shallow copy happeing inside of the immer library of the react 
+
+-> immutable coding also want to state change the object reference change  else not rerender
+-> the value : will store in the memory and take a reference and store the variable 
+
+=> shallow copy cheyyan ulla mehod aanu reactil immer ubayoogikkunnath 
+
+
+
+=> thunk : is the middleware used to create the asynchronous action interfaces with dispatch 
+Time Travel in Redux  : its helps to back ward and forward the state changes in our immutable states 
+Saga : saga is a middleware In redux used to asynchronous operation and manage the side Effects for states
+
+Controlled Components : need states 
+Uncontrolled Components : using the reff
+Error Boundary : the react components chatch the js errors in their child component and throw it like tree crashed 
 Shadow DOM
-Lazy Loading in Reacttree shaking reactDead Code Elimination
+Lazy Loading in React 
+tree shaking : reactDead Code Elimination
+
+flux  : {flux is the pattern for managing how data flows through a react application React components is through
+ passing data from one parent component to it's children components. The Flux pattern makes this model the default method for handling data. }
+
+
 
 Pure Component
-React.memo
-forwardRef
+React.memo 
+forwardRef : we can pass the ref to another component using forwardref api 
 Native Eventsmvcn
 Synthetic Events
 Event Pooling
 
+dom and virtual dom 
+-------------------
+-> storing like tree 
+-> reactil component base levelil nammak oru tree undaakum 
+-> reactil nammude code okke povunnath light wight aaya ee virtual dom yiloot aanu
+-> better performance 
+-> diff algorithm == diffing different  : its like what we want actually to modify : only changed elements that only change 
+
+-> dom lifecycle methods  : creation , modification ,rendering ,interaction 
+-> virtual                : rendering ,recondiliation ,diffing algorithm ,re-render 
 Three type routing 
 -----------------
 BrowserRouter :{we are commonly implementing the rote form }
 MemoryRouter  :{ is manages routing internally routing react application without manipulating the browser url  }
 Hash Routing  :{ It is used to implementing the client-side routing in react  <Hash router> should not sent the url to server  }
 
+
 Dynamic Import
 --------------
 Dynamic imports :  in React allow you to dynamically load JavaScript modules at runtime, {when hooks auto call }
 
 Tree Shaking : tree shaking it is the js term to eliminate the unused code from the 
-                application's bundle = small more efficient faster Dead Code Elimination
+                application's 
+bundle = small more efficient faster Dead Code Elimination
+
 
 Miscellaneous Concepts
 ----------------------
-
- 1: Concurrency and Threads
+1: Concurrency and Threads
 
 Thread Pool : 
 ------------
+
+
 => it is the collection of worker threads : threads the a
 
+
 Spawn() vs Fork() vs Exec()
+
+-> spawn and fork two modules provided by the child process modules 
+-> exec() and execFile() both are the two methods of the child process 
+-> exec() use with shell execFile() without sell more efficiant 
+-> fork create a child process that is a copy of a parent process 
+-> spawn create a new process from scratch 
+
 Concurrency
+----------
+-> concurrency is the ability to handle multiple task at a time like asynchronous operation the workerthread and call back child process async await these are allowing to do without blocking the main tread 
+
 Content Negotiation
 Dispatch
 Socket
 CSRF
+useLocation 
+-----------
 
+-> useLocation used to accress the current location object  of the active url 
 
 Miscellaneous Algorithms and Techniques
 ---------------------------------------
@@ -352,22 +526,51 @@ Advanced JavaScript
 -------------------
 
 JIT (Just-In-Time Compilation)
+------------------------------
+js v8 engine now code  executing /compilation  with this compilation and js is a interpreter language and 
 ECMAScript
-Static Keyword
-Structured Clone
-bind()
-strict mode
+Static Keyword : it is a key word used in the class for creating the static method or property 
+static method : it is a function inside of a class using with static key words 
+Structured Clone : it is a algorithm for creating deep copies of objects 
+strict mode  : 'use strict';
+x = 3.14; // Error: x is not defined
+
+
+partial application && curring 
+------------------------------
+-> 
+
+
 Object.entries
+
 Labels
+------
+-> labels In js is a unique string used to brake a outerloop with specific contention 
+
 eval()
+-------
+-> you can do a program with even that is a string 
+
+excFile()
+
+
+object.seal() && object.freez()
+-------------------------------
+-> seal control the mutability of object only mutable existing property not add new and delete 
+-> freez do not change any thing like delete , add  and update 
 
 Additional Topics
 -----------------
-
 CAP Theorem
 API Versioning
 Transpiler
+
 HTTP Compression
-Content Security Policy
-Dynamic Import
+----------------
+-> http compression is used to reduce the size of the data transfer between  a web server and client 
+
+lodash 
+------
+-> loadash is a power full library In js we can use that server side and client side that provides a wide range functions for common programming tasks such as manipulating array object worke outs 
+
 

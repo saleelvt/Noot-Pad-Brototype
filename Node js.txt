@@ -54,8 +54,18 @@ console.log(path.basename(__dirname)); evide yaano ullath ath matram
 ---------------
 -> 
 
+different between the session and cookies                            session 
+-----------------------------------------                            -------
+-> cookie stored on the client side in the  user's browser          ->  server side 
+-> cookie have a size limited (4kb)                                 -> save larger data
+-> less security                                                    -> more security since data in the server 
+-> sent with every http requests                                    -> only session id sent with request 
 
+=> different package.json & package-lock.json 
+ -> defines the metadata and dependencies for our project and  lock is lock down the versions of  dependencies  installed in your project 
+->  
 
+=> error middleware : arguments (err ,req,res,next) 
 
 
 

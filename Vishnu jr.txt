@@ -40,9 +40,11 @@ localStorage vs browser cach
 reverse proxying statelessness of HTTP -TLD 
 -default HTTPS port Dns sudo 
 
+
 DSA 
 ---
-rehashing -utf-8 r kilobyt mark and sweep 
+rehashing -utf-8 r kilobyt
+ mark and sweep 
 - title case wbrads in sstirng 
 poop queue implementation 
 
